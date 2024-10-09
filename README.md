@@ -13,12 +13,8 @@
 |		+-- sample_submission.csv    # 测试结果提交模版
 |		|
 |		+-- test_features.csv        # 测试用特征集
-|		|
-|		+-- test_matches.jsonl       # 原始测试用比赛数据（json 格式文件）
-|		|
+|   |
 |		+-- train_features.csv       # 训练用特征集
-|		|
-|		+-- train_matches.jsonl      # 原始训练用比赛数据（json 格式文件）
 |		|
 |		+-- train_targets.csv        # 训练用标签集
 |
