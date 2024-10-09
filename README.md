@@ -2,8 +2,9 @@
 
 本项目是同济大学2024年秋季数据挖掘课程的实践大作业，完成 Kaggle 上的 Dota 2 Winner Prediction 比赛。
 
-目录介绍：
+目录简介：
 
+```powershell
 .
 |
 +-- README.md                    # 当前文件
@@ -29,3 +30,4 @@
     +-- train.py                 # 模型训练
     |
     +-- datapreproc.py           # 数据预处理
+```
