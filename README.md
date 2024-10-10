@@ -22,6 +22,12 @@
 |   +-- train_features.csv       # 训练用特征集
 |   |
 |   +-- train_targets.csv        # 训练用标签集
+|   |
+|   +-- linux_proc_cmd.txt       # 处理数据用到的 Linux 命令
+|   |
+|   +-- small_train_matches.json # 前二十个原始训练数据样本（方便打开查看）
+|   |
+|   +-- matches_features_all.txt # 原始数据中的所有 feature
 |
 +-- docs                       # 课程提交所需文档
 |
