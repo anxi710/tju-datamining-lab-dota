@@ -35,3 +35,5 @@
     |
     +-- datapreproc.py           # 数据预处理
 ```
+
+使用 `conda create --name dota2 --file requirements.txt python=3.10(jupyter)` 创建适用于本项目的 conda 环境。
