@@ -7,6 +7,10 @@
 ```powershell
 .
 |
++-- .gitignore                   # 跟踪时需要忽略的文件
+|
++-- requirements.txt             # 需要安装的 python 软件包
+|
 +-- README.md                    # 当前文件
 |
 +-- data                       # 数据集
