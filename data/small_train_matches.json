@@ -1,0 +1,2168 @@
+{
+    "game_time": 155,
+    "match_id_hash": "a400b8f29dece5f4d266f49f1ae2e98a",
+    "teamfights": [],
+    "objectives": [
+        {
+            "time": 124.203,
+            "type": "CHAT_MESSAGE_FIRSTBLOOD",
+            "slot": 8,
+            "key": 2,
+            "player_slot": 131
+        }
+    ],
+    "chat": [
+        {
+            "player_slot": 0,
+            "time": -13.63,
+            "text": "???"
+        },
+        {
+            "player_slot": 0,
+            "time": -10.964,
+            "text": "? ???? ??????"
+        },
+        {
+            "player_slot": 0,
+            "time": -7.965,
+            "text": "???????? ????("
+        },
+        {
+            "player_slot": 4,
+            "time": 43.756,
+            "text": "???"
+        },
+        {
+            "player_slot": 2,
+            "time": 44.422,
+            "text": "??? ??????"
+        },
+        {
+            "player_slot": 4,
+            "time": 45.289,
+            "text": "*[*[*["
+        },
+        {
+            "player_slot": 2,
+            "time": 46.622,
+            "text": "????"
+        },
+        {
+            "player_slot": 4,
+            "time": 47.355,
+            "text": "??? ??????"
+        },
+        {
+            "player_slot": 4,
+            "time": 48.688,
+            "text": "????"
+        },
+        {
+            "player_slot": 2,
+            "time": 52.021,
+            "text": "???????? ??? ??????"
+        },
+        {
+            "player_slot": 4,
+            "time": 73.349,
+            "text": "????? ??? ?????"
+        }
+    ],
+    "game_mode": 22,
+    "lobby_type": 7,
+    "players": [
+        {
+            "player_slot": 0,
+            "hero_id": 11,
+            "hero_name": "npc_dota_hero_nevermore",
+            "account_id_hash": "86bf86c5488742478688149155258ea8",
+            "ability_upgrades": [],
+            "obs_placed": 0,
+            "sen_placed": 0,
+            "creeps_stacked": 0,
+            "camps_stacked": 0,
+            "rune_pickups": 1,
+            "firstblood_claimed": 0,
+            "teamfight_participation": 0,
+            "towers_killed": 0,
+            "roshans_killed": 0,
+            "observers_placed": 0,
+            "stuns": 0,
+            "max_hero_hit": {
+                "type": "max_hero_hit",
+                "time": 94.977,
+                "max": true,
+                "inflictor": "nevermore_shadowraze2",
+                "unit": "npc_dota_hero_nevermore",
+                "key": "npc_dota_hero_tinker",
+                "value": 136,
+                "slot": 0,
+                "player_slot": 0
+            },
+            "times": [
+                0,
+                60,
+                120
+            ],
+            "gold_t": [
+                1,
+                91,
+                356
+            ],
+            "lh_t": [
+                0,
+                0,
+                4
+            ],
+            "dn_t": [
+                0,
+                0,
+                0
+            ],
+            "xp_t": [
+                0,
+                107,
+                387
+            ],
+            "obs_log": [],
+            "sen_log": [],
+            "obs_left_log": [],
+            "sen_left_log": [],
+            "purchase_log": [
+                {
+                    "time": -89.783,
+                    "key": "wraith_band"
+                },
+                {
+                    "time": -89.783,
+                    "key": "enchanted_mango"
+                },
+                {
+                    "time": -89.783,
+                    "key": "tpscroll"
+                },
+                {
+                    "time": -84.215,
+                    "key": "tango"
+                },
+                {
+                    "time": 99.409,
+                    "key": "flask"
+                },
+                {
+                    "time": 100.909,
+                    "key": "clarity"
+                }
+            ],
+            "kills_log": [],
+            "buyback_log": [],
+            "runes_log": [
+                {
+                    "time": 134.067,
+                    "key": 0
+                }
+            ],
+            "obs": {},
+            "sen": {},
+            "actions": {
+                "1": 551,
+                "2": 8,
+                "4": 43,
+                "6": 1,
+                "7": 2,
+                "8": 6,
+                "10": 1,
+                "11": 2,
+                "15": 2,
+                "16": 8,
+                "17": 2,
+                "19": 6,
+                "21": 30,
+                "33": 30
+            },
+            "pings": {
+                "0": 6
+            },
+            "purchase": {
+                "wraith_band": 1,
+                "enchanted_mango": 1,
+                "tpscroll": 1,
+                "tango": 1,
+                "flask": 1,
+                "clarity": 1
+            },
+            "gold_reasons": {
+                "0": 600,
+                "13": 308
+            },
+            "xp_reasons": {
+                "2": 533
+            },
+            "killed": {
+                "npc_dota_creep_badguys_melee": 250,
+                "npc_dota_creep_badguys_ranged": 203
+            },
+            "item_uses": {
+                "tango": 1,
+                "flask": 1
+            },
+            "ability_uses": {
+                "nevermore_shadowraze3": 1,
+                "nevermore_shadowraze1": 1,
+                "nevermore_shadowraze2": 1
+            },
+            "hero_hits": {
+                "null": 3,
+                "nevermore_shadowraze3": 1,
+                "nevermore_shadowraze1": 1,
+                "nevermore_shadowraze2": 1
+            },
+            "damage": {
+                "npc_dota_creep_goodguys_melee": 92,
+                "npc_dota_creep_badguys_melee": 478,
+                "npc_dota_hero_tinker": 459,
+                "npc_dota_creep_badguys_ranged": 203,
+                "npc_dota_creep_goodguys_ranged": 55
+            },
+            "damage_taken": {
+                "npc_dota_hero_tinker": 704,
+                "npc_dota_creep_badguys_melee": 231,
+                "npc_dota_creep_badguys_ranged": 38
+            },
+            "damage_inflictor": {
+                "null": 159,
+                "nevermore_shadowraze3": 64,
+                "nevermore_shadowraze1": 100,
+                "nevermore_shadowraze2": 136
+            },
+            "runes": {
+                "0": 1
+            },
+            "killed_by": {},
+            "kill_streaks": {},
+            "multi_kills": {},
+            "life_state": {
+                "0": 310
+            },
+            "healing": {},
+            "damage_inflictor_received": {
+                "tinker_laser": 410,
+                "null": 294
+            },
+            "randomed": false,
+            "pred_vict": false,
+            "gold": 543,
+            "lh": 7,
+            "xp": 533,
+            "x": 116,
+            "y": 122,
+            "hero_inventory": [
+                {
+                    "id": "item_tango",
+                    "num_charges": 2,
+                    "cooldown": 0
+                },
+                {
+                    "id": "item_wraith_band",
+                    "cooldown": 0
+                },
+                {
+                    "id": "item_enchanted_mango",
+                    "cooldown": 0
+                },
+                {
+                    "id": "item_clarity",
+                    "num_charges": 1,
+                    "cooldown": 0
+                },
+                {
+                    "id": "item_tpscroll",
+                    "num_charges": 1,
+                    "cooldown": 0
+                }
+            ],
+            "hero_stash": [],
+            "health": 358,
+            "max_health": 600,
+            "max_mana": 350.938,
+            "level": 2,
+            "kills": 0,
+            "deaths": 0,
+            "assists": 0,
+            "denies": 0,
+            "nearby_creep_death_count": 19
+        },
+        {
+            "player_slot": 1,
+            "hero_id": 78,
+            "hero_name": "npc_dota_hero_brewmaster",
+            "account_id_hash": "67d6d5d0a77e585a11319af7bdd5caed",
+            "ability_upgrades": [],
+            "obs_placed": 0,
+            "sen_placed": 0,
+            "creeps_stacked": 0,
+            "camps_stacked": 0,
+            "rune_pickups": 0,
+            "firstblood_claimed": 0,
+            "teamfight_participation": 0,
+            "towers_killed": 0,
+            "roshans_killed": 0,
+            "observers_placed": 0,
+            "stuns": 0,
+            "max_hero_hit": {
+                "value": 0
+            },
+            "times": [
+                0,
+                60,
+                120
+            ],
+            "gold_t": [
+                1,
+                91,
+                262
+            ],
+            "lh_t": [
+                0,
+                0,
+                2
+            ],
+            "dn_t": [
+                0,
+                0,
+                2
+            ],
+            "xp_t": [
+                0,
+                38,
+                318
+            ],
+            "obs_log": [],
+            "sen_log": [],
+            "obs_left_log": [],
+            "sen_left_log": [],
+            "purchase_log": [
+                {
+                    "time": -89.783,
+                    "key": "tpscroll"
+                },
+                {
+                    "time": -66.817,
+                    "key": "stout_shield"
+                },
+                {
+                    "time": -66.417,
+                    "key": "enchanted_mango"
+                },
+                {
+                    "time": -65.851,
+                    "key": "tango"
+                },
+                {
+                    "time": -65.184,
+                    "key": "tango"
+                },
+                {
+                    "time": -64.951,
+                    "key": "flask"
+                }
+            ],
+            "kills_log": [],
+            "buyback_log": [],
+            "runes_log": [],
+            "obs": {},
+            "sen": {},
+            "actions": {
+                "1": 713,
+                "4": 196,
+                "5": 1,
+                "6": 3,
+                "7": 18,
+                "8": 2,
+                "10": 52,
+                "11": 2,
+                "12": 1,
+                "16": 5,
+                "19": 1,
+                "33": 52
+            },
+            "pings": {},
+            "purchase": {
+                "tpscroll": 1,
+                "stout_shield": 1,
+                "enchanted_mango": 1,
+                "tango": 2,
+                "flask": 1
+            },
+            "gold_reasons": {
+                "0": 600,
+                "13": 164
+            },
+            "xp_reasons": {
+                "2": 478
+            },
+            "killed": {
+                "npc_dota_creep_goodguys_ranged": 113,
+                "npc_dota_creep_badguys_melee": 281,
+                "npc_dota_creep_goodguys_melee": 53
+            },
+            "item_uses": {
+                "tpscroll": 1,
+                "enchanted_mango": 1,
+                "flask": 1,
+                "tango": 6
+            },
+            "ability_uses": {
+                "brewmaster_drunken_haze": 2
+            },
+            "hero_hits": {},
+            "damage": {
+                "npc_dota_creep_goodguys_ranged": 113,
+                "npc_dota_creep_badguys_melee": 1002,
+                "npc_dota_creep_goodguys_melee": 212
+            },
+            "damage_taken": {
+                "npc_dota_creep_badguys_melee": 148,
+                "npc_dota_hero_tinker": 116
+            },
+            "damage_inflictor": {},
+            "runes": {},
+            "killed_by": {},
+            "kill_streaks": {},
+            "multi_kills": {},
+            "life_state": {
+                "0": 310
+            },
+            "healing": {
+                "npc_dota_hero_brewmaster": 1
+            },
+            "damage_inflictor_received": {
+                "null": 116
+            },
+            "randomed": false,
+            "pred_vict": false,
+            "gold": 399,
+            "lh": 4,
+            "xp": 478,
+            "x": 124,
+            "y": 126,
+            "hero_inventory": [],
+            "hero_stash": [],
+            "health": 636,
+            "max_health": 720,
+            "max_mana": 254.938,
+            "level": 2,
+            "kills": 0,
+            "deaths": 0,
+            "assists": 0,
+            "denies": 3,
+            "nearby_creep_death_count": 19
+        },
+        {
+            "player_slot": 2,
+            "hero_id": 14,
+            "hero_name": "npc_dota_hero_pudge",
+            "account_id_hash": "d0cb6c812472517b999025ea19d17b5c",
+            "ability_upgrades": [],
+            "obs_placed": 0,
+            "sen_placed": 0,
+            "creeps_stacked": 0,
+            "camps_stacked": 0,
+            "rune_pickups": 1,
+            "firstblood_claimed": 0,
+            "teamfight_participation": 0,
+            "towers_killed": 0,
+            "roshans_killed": 0,
+            "observers_placed": 0,
+            "stuns": 0,
+            "max_hero_hit": {
+                "type": "max_hero_hit",
+                "time": 123.437,
+                "max": true,
+                "inflictor": "pudge_rot",
+                "unit": "npc_dota_hero_pudge",
+                "key": "npc_dota_hero_ogre_magi",
+                "value": 4,
+                "slot": 2,
+                "player_slot": 2
+            },
+            "times": [
+                0,
+                60,
+                120
+            ],
+            "gold_t": [
+                1,
+                91,
+                182
+            ],
+            "lh_t": [
+                0,
+                0,
+                0
+            ],
+            "dn_t": [
+                0,
+                0,
+                0
+            ],
+            "xp_t": [
+                0,
+                0,
+                73
+            ],
+            "obs_log": [],
+            "sen_log": [],
+            "obs_left_log": [],
+            "sen_left_log": [],
+            "purchase_log": [
+                {
+                    "time": -89.783,
+                    "key": "tpscroll"
+                },
+                {
+                    "time": -70.849,
+                    "key": "courier"
+                },
+                {
+                    "time": -69.116,
+                    "key": "tango"
+                },
+                {
+                    "time": -65.117,
+                    "key": "magic_stick"
+                },
+                {
+                    "time": -19.662,
+                    "key": "wind_lace"
+                }
+            ],
+            "kills_log": [],
+            "buyback_log": [],
+            "runes_log": [
+                {
+                    "time": 139.333,
+                    "key": 5
+                }
+            ],
+            "obs": {},
+            "sen": {},
+            "actions": {
+                "1": 145,
+                "5": 1,
+                "7": 3,
+                "8": 1,
+                "9": 1,
+                "10": 10,
+                "11": 1,
+                "15": 1,
+                "16": 4,
+                "19": 3,
+                "33": 10
+            },
+            "pings": {
+                "0": 1
+            },
+            "purchase": {
+                "tpscroll": 1,
+                "courier": 1,
+                "tango": 1,
+                "magic_stick": 1,
+                "wind_lace": 1
+            },
+            "gold_reasons": {
+                "0": 669,
+                "1": -67
+            },
+            "xp_reasons": {
+                "2": 130
+            },
+            "killed": {},
+            "item_uses": {
+                "courier": 1,
+                "tango": 3,
+                "tpscroll": 1
+            },
+            "ability_uses": {
+                "pudge_rot": 1
+            },
+            "hero_hits": {
+                "pudge_rot": 8
+            },
+            "damage": {
+                "npc_dota_hero_ogre_magi": 16,
+                "npc_dota_hero_pudge": 16
+            },
+            "damage_taken": {
+                "npc_dota_hero_ogre_magi": 868,
+                "npc_dota_hero_phantom_lancer": 224,
+                "npc_dota_hero_pudge": 16
+            },
+            "damage_inflictor": {
+                "pudge_rot": 16
+            },
+            "runes": {
+                "5": 1
+            },
+            "killed_by": {
+                "npc_dota_hero_ogre_magi": 1
+            },
+            "kill_streaks": {},
+            "multi_kills": {},
+            "life_state": {
+                "0": 300,
+                "1": 3,
+                "2": 7
+            },
+            "healing": {},
+            "damage_inflictor_received": {
+                "null": 731,
+                "orb_of_venom": 54,
+                "ogre_magi_ignite": 190,
+                "phantom_lancer_spirit_lance": 76,
+                "ogre_magi_fireblast": 41
+            },
+            "randomed": false,
+            "pred_vict": false,
+            "gold": 304,
+            "lh": 0,
+            "xp": 130,
+            "x": 70,
+            "y": 156,
+            "hero_inventory": [
+                {
+                    "id": "item_magic_stick",
+                    "num_charges": 4,
+                    "cooldown": 0
+                },
+                {
+                    "id": "item_wind_lace",
+                    "cooldown": 0
+                }
+            ],
+            "hero_stash": [],
+            "health": 700,
+            "max_health": 700,
+            "max_mana": 242.938,
+            "level": 1,
+            "kills": 0,
+            "deaths": 1,
+            "assists": 0,
+            "denies": 0,
+            "nearby_creep_death_count": 6
+        },
+        {
+            "player_slot": 3,
+            "hero_id": 59,
+            "hero_name": "npc_dota_hero_huskar",
+            "account_id_hash": "83975f1afb5f5e97dc7266402f997dc3",
+            "ability_upgrades": [],
+            "obs_placed": 0,
+            "sen_placed": 0,
+            "creeps_stacked": 0,
+            "camps_stacked": 0,
+            "rune_pickups": 0,
+            "firstblood_claimed": 0,
+            "teamfight_participation": 0,
+            "towers_killed": 0,
+            "roshans_killed": 0,
+            "observers_placed": 0,
+            "stuns": 0,
+            "max_hero_hit": {
+                "type": "max_hero_hit",
+                "time": 83.48,
+                "max": true,
+                "inflictor": null,
+                "unit": "npc_dota_hero_huskar",
+                "key": "npc_dota_hero_night_stalker",
+                "value": 42,
+                "slot": 3,
+                "player_slot": 3
+            },
+            "times": [
+                0,
+                60,
+                120
+            ],
+            "gold_t": [
+                1,
+                169,
+                260
+            ],
+            "lh_t": [
+                0,
+                2,
+                2
+            ],
+            "dn_t": [
+                0,
+                1,
+                1
+            ],
+            "xp_t": [
+                0,
+                202,
+                301
+            ],
+            "obs_log": [],
+            "sen_log": [],
+            "obs_left_log": [],
+            "sen_left_log": [],
+            "purchase_log": [
+                {
+                    "time": -89.783,
+                    "key": "tango"
+                },
+                {
+                    "time": -89.783,
+                    "key": "wind_lace"
+                },
+                {
+                    "time": -89.783,
+                    "key": "enchanted_mango"
+                },
+                {
+                    "time": -89.783,
+                    "key": "branches"
+                },
+                {
+                    "time": -89.783,
+                    "key": "branches"
+                },
+                {
+                    "time": -89.783,
+                    "key": "tpscroll"
+                },
+                {
+                    "time": 52.221,
+                    "key": "magic_wand"
+                },
+                {
+                    "time": 52.221,
+                    "key": "magic_stick"
+                },
+                {
+                    "time": 117.438,
+                    "key": "flask"
+                }
+            ],
+            "kills_log": [],
+            "buyback_log": [],
+            "runes_log": [],
+            "obs": {},
+            "sen": {},
+            "actions": {
+                "1": 1053,
+                "2": 8,
+                "3": 3,
+                "4": 84,
+                "6": 3,
+                "7": 3,
+                "8": 1,
+                "10": 41,
+                "11": 2,
+                "16": 7,
+                "19": 1,
+                "20": 2,
+                "33": 41
+            },
+            "pings": {},
+            "purchase": {
+                "tango": 1,
+                "wind_lace": 1,
+                "enchanted_mango": 1,
+                "branches": 2,
+                "tpscroll": 1,
+                "magic_wand": 1,
+                "magic_stick": 1,
+                "flask": 1
+            },
+            "gold_reasons": {
+                "0": 600,
+                "13": 154
+            },
+            "xp_reasons": {
+                "2": 506
+            },
+            "killed": {
+                "npc_dota_creep_badguys_melee": 185,
+                "npc_dota_creep_goodguys_melee": 46
+            },
+            "item_uses": {
+                "tango": 3
+            },
+            "ability_uses": {},
+            "hero_hits": {
+                "huskar_burning_spear": 25,
+                "null": 6
+            },
+            "damage": {
+                "npc_dota_creep_badguys_melee": 497,
+                "npc_dota_hero_huskar": 90,
+                "npc_dota_hero_windrunner": 64,
+                "npc_dota_creep_goodguys_melee": 46,
+                "npc_dota_hero_night_stalker": 303
+            },
+            "damage_taken": {
+                "npc_dota_hero_windrunner": 402,
+                "npc_dota_hero_night_stalker": 635,
+                "npc_dota_hero_huskar": 90,
+                "npc_dota_creep_badguys_melee": 65
+            },
+            "damage_inflictor": {
+                "null": 194,
+                "huskar_burning_spear": 173
+            },
+            "runes": {},
+            "killed_by": {},
+            "kill_streaks": {},
+            "multi_kills": {},
+            "life_state": {
+                "0": 310
+            },
+            "healing": {},
+            "damage_inflictor_received": {
+                "null": 760,
+                "orb_of_venom": 87,
+                "night_stalker_void": 190
+            },
+            "randomed": false,
+            "pred_vict": false,
+            "gold": 389,
+            "lh": 4,
+            "xp": 506,
+            "x": 170,
+            "y": 86,
+            "hero_inventory": [
+                {
+                    "id": "item_wind_lace",
+                    "cooldown": 0
+                },
+                {
+                    "id": "item_magic_wand",
+                    "num_charges": 2,
+                    "cooldown": 0
+                },
+                {
+                    "id": "item_tpscroll",
+                    "num_charges": 1,
+                    "cooldown": 0
+                }
+            ],
+            "hero_stash": [],
+            "health": 399,
+            "max_health": 700,
+            "max_mana": 326.938,
+            "level": 2,
+            "kills": 0,
+            "deaths": 0,
+            "assists": 0,
+            "denies": 1,
+            "nearby_creep_death_count": 14
+        },
+        {
+            "player_slot": 4,
+            "hero_id": 77,
+            "hero_name": "npc_dota_hero_lycan",
+            "account_id_hash": "7713505172bca930266a2da3524ae04e",
+            "ability_upgrades": [],
+            "obs_placed": 0,
+            "sen_placed": 0,
+            "creeps_stacked": 0,
+            "camps_stacked": 0,
+            "rune_pickups": 0,
+            "firstblood_claimed": 0,
+            "teamfight_participation": 0,
+            "towers_killed": 0,
+            "roshans_killed": 0,
+            "observers_placed": 0,
+            "stuns": 0,
+            "max_hero_hit": {
+                "value": 0
+            },
+            "times": [
+                0,
+                60,
+                120
+            ],
+            "gold_t": [
+                1,
+                91,
+                281
+            ],
+            "lh_t": [
+                0,
+                0,
+                5
+            ],
+            "dn_t": [
+                0,
+                0,
+                0
+            ],
+            "xp_t": [
+                0,
+                38,
+                238
+            ],
+            "obs_log": [],
+            "sen_log": [],
+            "obs_left_log": [],
+            "sen_left_log": [],
+            "purchase_log": [
+                {
+                    "time": -89.783,
+                    "key": "stout_shield"
+                },
+                {
+                    "time": -89.783,
+                    "key": "branches"
+                },
+                {
+                    "time": -89.783,
+                    "key": "branches"
+                },
+                {
+                    "time": -89.783,
+                    "key": "faerie_fire"
+                },
+                {
+                    "time": -89.783,
+                    "key": "enchanted_mango"
+                },
+                {
+                    "time": -89.783,
+                    "key": "tpscroll"
+                },
+                {
+                    "time": -9.198,
+                    "key": "quelling_blade"
+                }
+            ],
+            "kills_log": [],
+            "buyback_log": [],
+            "runes_log": [],
+            "obs": {},
+            "sen": {},
+            "actions": {
+                "1": 671,
+                "2": 5,
+                "3": 1,
+                "4": 130,
+                "7": 1,
+                "8": 1,
+                "10": 1,
+                "11": 2,
+                "16": 4,
+                "19": 2
+            },
+            "pings": {},
+            "purchase": {
+                "stout_shield": 1,
+                "branches": 2,
+                "faerie_fire": 1,
+                "enchanted_mango": 1,
+                "tpscroll": 1,
+                "quelling_blade": 1
+            },
+            "gold_reasons": {
+                "0": 600,
+                "13": 167
+            },
+            "xp_reasons": {
+                "2": 344
+            },
+            "killed": {
+                "npc_dota_neutral_satyr_soulstealer": 174,
+                "npc_dota_neutral_satyr_trickster": 194,
+                "npc_dota_neutral_mud_golem": 209,
+                "npc_dota_neutral_mud_golem_split": 399
+            },
+            "item_uses": {
+                "quelling_blade": 1
+            },
+            "ability_uses": {
+                "lycan_howl": 1
+            },
+            "hero_hits": {},
+            "damage": {
+                "npc_dota_neutral_satyr_soulstealer": 1286,
+                "npc_dota_neutral_satyr_trickster": 780,
+                "npc_dota_neutral_mud_golem": 1721,
+                "npc_dota_neutral_mud_golem_split": 1206,
+                "npc_dota_neutral_giant_wolf": 97
+            },
+            "damage_taken": {
+                "npc_dota_neutral_satyr_soulstealer": 227,
+                "npc_dota_neutral_satyr_trickster": 56,
+                "npc_dota_neutral_mud_golem": 343,
+                "npc_dota_neutral_mud_golem_split": 44,
+                "npc_dota_neutral_giant_wolf": 35
+            },
+            "damage_inflictor": {},
+            "runes": {},
+            "killed_by": {},
+            "kill_streaks": {},
+            "multi_kills": {},
+            "life_state": {
+                "0": 310
+            },
+            "healing": {},
+            "damage_inflictor_received": {},
+            "randomed": true,
+            "pred_vict": false,
+            "gold": 402,
+            "lh": 10,
+            "xp": 344,
+            "x": 120,
+            "y": 100,
+            "hero_inventory": [
+                {
+                    "id": "item_stout_shield",
+                    "cooldown": 0
+                },
+                {
+                    "id": "item_quelling_blade",
+                    "cooldown": 0
+                },
+                {
+                    "id": "item_branches",
+                    "cooldown": 0
+                },
+                {
+                    "id": "item_faerie_fire",
+                    "num_charges": 1,
+                    "cooldown": 0
+                },
+                {
+                    "id": "item_enchanted_mango",
+                    "cooldown": 0
+                },
+                {
+                    "id": "item_branches",
+                    "cooldown": 0
+                }
+            ],
+            "hero_stash": [],
+            "health": 422,
+            "max_health": 800,
+            "max_mana": 314.938,
+            "level": 2,
+            "kills": 0,
+            "deaths": 0,
+            "assists": 0,
+            "denies": 0,
+            "nearby_creep_death_count": 12
+        },
+        {
+            "player_slot": 128,
+            "hero_id": 12,
+            "hero_name": "npc_dota_hero_phantom_lancer",
+            "account_id_hash": "c5e8f264da8fbb8b352f5298039c9be8",
+            "ability_upgrades": [],
+            "obs_placed": 0,
+            "sen_placed": 0,
+            "creeps_stacked": 0,
+            "camps_stacked": 0,
+            "rune_pickups": 1,
+            "firstblood_claimed": 0,
+            "teamfight_participation": 1,
+            "towers_killed": 0,
+            "roshans_killed": 0,
+            "observers_placed": 0,
+            "stuns": 0,
+            "max_hero_hit": {
+                "type": "max_hero_hit",
+                "time": 118.771,
+                "max": true,
+                "inflictor": "phantom_lancer_spirit_lance",
+                "unit": "npc_dota_hero_phantom_lancer",
+                "key": "npc_dota_hero_pudge",
+                "value": 76,
+                "slot": 5,
+                "player_slot": 128
+            },
+            "times": [
+                0,
+                60,
+                120
+            ],
+            "gold_t": [
+                1,
+                331,
+                738
+            ],
+            "lh_t": [
+                0,
+                2,
+                9
+            ],
+            "dn_t": [
+                0,
+                4,
+                12
+            ],
+            "xp_t": [
+                0,
+                85,
+                431
+            ],
+            "obs_log": [],
+            "sen_log": [],
+            "obs_left_log": [],
+            "sen_left_log": [],
+            "purchase_log": [
+                {
+                    "time": -89.783,
+                    "key": "tango"
+                },
+                {
+                    "time": -89.783,
+                    "key": "flask"
+                },
+                {
+                    "time": -89.783,
+                    "key": "branches"
+                },
+                {
+                    "time": -89.783,
+                    "key": "stout_shield"
+                },
+                {
+                    "time": -89.783,
+                    "key": "enchanted_mango"
+                },
+                {
+                    "time": -89.783,
+                    "key": "tpscroll"
+                },
+                {
+                    "time": 23.428,
+                    "key": "quelling_blade"
+                }
+            ],
+            "kills_log": [],
+            "buyback_log": [],
+            "runes_log": [
+                {
+                    "time": 4.232,
+                    "key": 5
+                }
+            ],
+            "obs": {},
+            "sen": {},
+            "actions": {
+                "1": 443,
+                "2": 12,
+                "3": 1,
+                "4": 80,
+                "6": 1,
+                "7": 4,
+                "10": 19,
+                "11": 2,
+                "15": 2,
+                "16": 7,
+                "17": 1,
+                "19": 5,
+                "33": 19
+            },
+            "pings": {},
+            "purchase": {
+                "tango": 1,
+                "flask": 1,
+                "branches": 1,
+                "stout_shield": 1,
+                "enchanted_mango": 1,
+                "tpscroll": 1,
+                "quelling_blade": 1
+            },
+            "gold_reasons": {
+                "0": 760,
+                "12": 34,
+                "13": 553
+            },
+            "xp_reasons": {
+                "1": 30,
+                "2": 750
+            },
+            "killed": {
+                "npc_dota_creep_badguys_melee": 507,
+                "npc_dota_creep_goodguys_melee": 648,
+                "npc_dota_creep_badguys_ranged": 239,
+                "npc_dota_creep_goodguys_ranged": 364
+            },
+            "item_uses": {
+                "tango": 1,
+                "quelling_blade": 3
+            },
+            "ability_uses": {
+                "phantom_lancer_spirit_lance": 1
+            },
+            "hero_hits": {
+                "phantom_lancer_spirit_lance": 1,
+                "null": 4
+            },
+            "damage": {
+                "npc_dota_creep_badguys_melee": 695,
+                "npc_dota_creep_goodguys_melee": 1436,
+                "npc_dota_creep_badguys_ranged": 239,
+                "npc_dota_creep_goodguys_ranged": 927,
+                "npc_dota_hero_pudge": 224
+            },
+            "damage_taken": {
+                "npc_dota_creep_goodguys_ranged": 220,
+                "npc_dota_creep_goodguys_melee": 127
+            },
+            "damage_inflictor": {
+                "phantom_lancer_spirit_lance": 76,
+                "null": 148
+            },
+            "runes": {
+                "5": 1
+            },
+            "killed_by": {},
+            "kill_streaks": {},
+            "multi_kills": {},
+            "life_state": {
+                "0": 310
+            },
+            "healing": {},
+            "damage_inflictor_received": {},
+            "randomed": false,
+            "pred_vict": true,
+            "gold": 982,
+            "lh": 12,
+            "xp": 780,
+            "x": 82,
+            "y": 170,
+            "hero_inventory": [
+                {
+                    "id": "item_tango",
+                    "num_charges": 2,
+                    "cooldown": 0
+                },
+                {
+                    "id": "item_flask",
+                    "num_charges": 1,
+                    "cooldown": 0
+                },
+                {
+                    "id": "item_enchanted_mango",
+                    "cooldown": 0
+                },
+                {
+                    "id": "item_stout_shield",
+                    "cooldown": 0
+                },
+                {
+                    "id": "item_quelling_blade",
+                    "cooldown": 0
+                },
+                {
+                    "id": "item_branches",
+                    "cooldown": 0
+                }
+            ],
+            "hero_stash": [],
+            "health": 650,
+            "max_health": 720,
+            "max_mana": 386.938,
+            "level": 3,
+            "kills": 0,
+            "deaths": 0,
+            "assists": 1,
+            "denies": 13,
+            "nearby_creep_death_count": 30
+        },
+        {
+            "player_slot": 129,
+            "hero_id": 21,
+            "hero_name": "npc_dota_hero_windrunner",
+            "account_id_hash": "0472e177a478eb381f3534446f80cd2a",
+            "ability_upgrades": [],
+            "obs_placed": 0,
+            "sen_placed": 0,
+            "creeps_stacked": 0,
+            "camps_stacked": 0,
+            "rune_pickups": 2,
+            "firstblood_claimed": 0,
+            "teamfight_participation": 0,
+            "towers_killed": 0,
+            "roshans_killed": 0,
+            "observers_placed": 0,
+            "stuns": 0,
+            "max_hero_hit": {
+                "type": "max_hero_hit",
+                "time": -5.465,
+                "max": true,
+                "inflictor": null,
+                "unit": "npc_dota_hero_windrunner",
+                "key": "npc_dota_hero_huskar",
+                "value": 50,
+                "slot": 6,
+                "player_slot": 129
+            },
+            "times": [
+                0,
+                60,
+                120
+            ],
+            "gold_t": [
+                1,
+                251,
+                561
+            ],
+            "lh_t": [
+                0,
+                0,
+                5
+            ],
+            "dn_t": [
+                0,
+                1,
+                4
+            ],
+            "xp_t": [
+                0,
+                58,
+                445
+            ],
+            "obs_log": [],
+            "sen_log": [],
+            "obs_left_log": [],
+            "sen_left_log": [],
+            "purchase_log": [
+                {
+                    "time": -89.783,
+                    "key": "orb_of_venom"
+                },
+                {
+                    "time": -89.783,
+                    "key": "branches"
+                },
+                {
+                    "time": -89.783,
+                    "key": "tango"
+                },
+                {
+                    "time": -89.783,
+                    "key": "branches"
+                },
+                {
+                    "time": -89.783,
+                    "key": "enchanted_mango"
+                },
+                {
+                    "time": -89.783,
+                    "key": "tpscroll"
+                },
+                {
+                    "time": 23.428,
+                    "key": "magic_wand"
+                },
+                {
+                    "time": 23.428,
+                    "key": "magic_stick"
+                }
+            ],
+            "kills_log": [],
+            "buyback_log": [],
+            "runes_log": [
+                {
+                    "time": 1.7,
+                    "key": 5
+                },
+                {
+                    "time": 8.565,
+                    "key": 5
+                }
+            ],
+            "obs": {},
+            "sen": {},
+            "actions": {
+                "1": 575,
+                "2": 4,
+                "4": 77,
+                "11": 3,
+                "15": 10,
+                "16": 6,
+                "19": 3
+            },
+            "pings": {},
+            "purchase": {
+                "orb_of_venom": 1,
+                "branches": 2,
+                "tango": 1,
+                "enchanted_mango": 1,
+                "tpscroll": 1,
+                "magic_wand": 1,
+                "magic_stick": 1
+            },
+            "gold_reasons": {
+                "0": 760,
+                "13": 393
+            },
+            "xp_reasons": {
+                "2": 706
+            },
+            "killed": {
+                "npc_dota_creep_badguys_ranged": 159,
+                "npc_dota_creep_goodguys_melee": 350,
+                "npc_dota_creep_badguys_melee": 148,
+                "npc_dota_creep_goodguys_ranged": 110
+            },
+            "item_uses": {},
+            "ability_uses": {},
+            "hero_hits": {
+                "null": 8,
+                "orb_of_venom": 14
+            },
+            "damage": {
+                "npc_dota_hero_huskar": 402,
+                "npc_dota_creep_goodguys_melee": 460,
+                "npc_dota_creep_badguys_ranged": 265,
+                "npc_dota_creep_badguys_melee": 740,
+                "npc_dota_creep_goodguys_ranged": 110
+            },
+            "damage_taken": {
+                "npc_dota_hero_huskar": 64,
+                "npc_dota_creep_goodguys_melee": 95,
+                "npc_dota_creep_goodguys_ranged": 31
+            },
+            "damage_inflictor": {
+                "null": 360,
+                "orb_of_venom": 42
+            },
+            "runes": {
+                "5": 2
+            },
+            "killed_by": {},
+            "kill_streaks": {},
+            "multi_kills": {},
+            "life_state": {
+                "0": 310
+            },
+            "healing": {},
+            "damage_inflictor_received": {
+                "null": 40,
+                "huskar_burning_spear": 24
+            },
+            "randomed": false,
+            "pred_vict": true,
+            "gold": 788,
+            "lh": 9,
+            "xp": 706,
+            "x": 174,
+            "y": 90,
+            "hero_inventory": [
+                {
+                    "id": "item_orb_of_venom",
+                    "cooldown": 0
+                },
+                {
+                    "id": "item_tango",
+                    "num_charges": 3,
+                    "cooldown": 0
+                },
+                {
+                    "id": "item_flask",
+                    "num_charges": 1,
+                    "cooldown": 0
+                },
+                {
+                    "id": "item_magic_wand",
+                    "cooldown": 0
+                },
+                {
+                    "id": "item_tpscroll",
+                    "num_charges": 1,
+                    "cooldown": 0
+                }
+            ],
+            "hero_stash": [],
+            "health": 640,
+            "max_health": 640,
+            "max_mana": 422.938,
+            "level": 3,
+            "kills": 0,
+            "deaths": 0,
+            "assists": 0,
+            "denies": 6,
+            "nearby_creep_death_count": 23
+        },
+        {
+            "player_slot": 130,
+            "hero_id": 60,
+            "hero_name": "npc_dota_hero_night_stalker",
+            "account_id_hash": "fc1271b29e684b9e7f39817b94db73dd",
+            "ability_upgrades": [],
+            "obs_placed": 0,
+            "sen_placed": 0,
+            "creeps_stacked": 0,
+            "camps_stacked": 0,
+            "rune_pickups": 2,
+            "firstblood_claimed": 0,
+            "teamfight_participation": 0,
+            "towers_killed": 0,
+            "roshans_killed": 0,
+            "observers_placed": 0,
+            "stuns": 0.3,
+            "max_hero_hit": {
+                "type": "max_hero_hit",
+                "time": -4.032,
+                "max": true,
+                "inflictor": "night_stalker_void",
+                "unit": "npc_dota_hero_night_stalker",
+                "key": "npc_dota_hero_huskar",
+                "value": 68,
+                "slot": 7,
+                "player_slot": 130
+            },
+            "times": [
+                0,
+                60,
+                120
+            ],
+            "gold_t": [
+                1,
+                251,
+                342
+            ],
+            "lh_t": [
+                0,
+                0,
+                0
+            ],
+            "dn_t": [
+                0,
+                0,
+                1
+            ],
+            "xp_t": [
+                0,
+                41,
+                229
+            ],
+            "obs_log": [],
+            "sen_log": [],
+            "obs_left_log": [],
+            "sen_left_log": [],
+            "purchase_log": [
+                {
+                    "time": -89.783,
+                    "key": "orb_of_venom"
+                },
+                {
+                    "time": -89.783,
+                    "key": "stout_shield"
+                },
+                {
+                    "time": -89.783,
+                    "key": "tango"
+                },
+                {
+                    "time": -89.783,
+                    "key": "tpscroll"
+                },
+                {
+                    "time": 148.93,
+                    "key": "boots"
+                }
+            ],
+            "kills_log": [],
+            "buyback_log": [],
+            "runes_log": [
+                {
+                    "time": 120.271,
+                    "key": 5
+                },
+                {
+                    "time": 127.002,
+                    "key": 5
+                }
+            ],
+            "obs": {},
+            "sen": {},
+            "actions": {
+                "1": 423,
+                "2": 5,
+                "3": 1,
+                "4": 19,
+                "6": 3,
+                "7": 1,
+                "10": 13,
+                "11": 2,
+                "15": 2,
+                "16": 4,
+                "19": 8,
+                "27": 2,
+                "33": 13
+            },
+            "pings": {
+                "0": 1
+            },
+            "purchase": {
+                "orb_of_venom": 1,
+                "stout_shield": 1,
+                "tango": 1,
+                "tpscroll": 1,
+                "boots": 1
+            },
+            "gold_reasons": {
+                "0": 896
+            },
+            "xp_reasons": {
+                "2": 307
+            },
+            "killed": {
+                "npc_dota_creep_badguys_melee": 56
+            },
+            "item_uses": {
+                "tango": 1
+            },
+            "ability_uses": {
+                "night_stalker_void": 3
+            },
+            "hero_hits": {
+                "night_stalker_void": 3,
+                "null": 7,
+                "orb_of_venom": 15
+            },
+            "damage": {
+                "npc_dota_hero_huskar": 635,
+                "npc_dota_creep_badguys_melee": 112
+            },
+            "damage_taken": {
+                "npc_dota_creep_goodguys_ranged": 4,
+                "npc_dota_creep_goodguys_melee": 14,
+                "npc_dota_hero_huskar": 303
+            },
+            "damage_inflictor": {
+                "night_stalker_void": 190,
+                "null": 400,
+                "orb_of_venom": 45
+            },
+            "runes": {
+                "5": 2
+            },
+            "killed_by": {},
+            "kill_streaks": {},
+            "multi_kills": {},
+            "life_state": {
+                "0": 310
+            },
+            "healing": {},
+            "damage_inflictor_received": {
+                "null": 154,
+                "huskar_burning_spear": 149
+            },
+            "randomed": false,
+            "pred_vict": false,
+            "gold": 531,
+            "lh": 0,
+            "xp": 307,
+            "x": 180,
+            "y": 84,
+            "hero_inventory": [
+                {
+                    "id": "item_orb_of_venom",
+                    "cooldown": 0
+                },
+                {
+                    "id": "item_stout_shield",
+                    "cooldown": 0
+                },
+                {
+                    "id": "item_boots",
+                    "cooldown": 0
+                },
+                {
+                    "id": "item_tango",
+                    "num_charges": 2,
+                    "cooldown": 0
+                },
+                {
+                    "id": "item_tpscroll",
+                    "num_charges": 1,
+                    "cooldown": 0
+                }
+            ],
+            "hero_stash": [],
+            "health": 720,
+            "max_health": 720,
+            "max_mana": 242.938,
+            "level": 2,
+            "kills": 0,
+            "deaths": 0,
+            "assists": 0,
+            "denies": 1,
+            "nearby_creep_death_count": 14
+        },
+        {
+            "player_slot": 131,
+            "hero_id": 84,
+            "hero_name": "npc_dota_hero_ogre_magi",
+            "account_id_hash": "9e4e323a078ba0c917d12b6bc54ce8ac",
+            "ability_upgrades": [],
+            "obs_placed": 1,
+            "sen_placed": 0,
+            "creeps_stacked": 0,
+            "camps_stacked": 0,
+            "rune_pickups": 2,
+            "firstblood_claimed": 1,
+            "teamfight_participation": 1,
+            "towers_killed": 0,
+            "roshans_killed": 0,
+            "observers_placed": 1,
+            "stuns": 0,
+            "max_hero_hit": {
+                "type": "max_hero_hit",
+                "time": 123.37,
+                "max": true,
+                "inflictor": null,
+                "unit": "npc_dota_hero_ogre_magi",
+                "key": "npc_dota_hero_pudge",
+                "value": 62,
+                "slot": 8,
+                "player_slot": 131
+            },
+            "times": [
+                0,
+                60,
+                120
+            ],
+            "gold_t": [
+                1,
+                251,
+                342
+            ],
+            "lh_t": [
+                0,
+                0,
+                0
+            ],
+            "dn_t": [
+                0,
+                0,
+                0
+            ],
+            "xp_t": [
+                0,
+                85,
+                329
+            ],
+            "obs_log": [
+                {
+                    "time": 41.49,
+                    "tick": 11025,
+                    "type": "obs_log",
+                    "key": "[80,152]",
+                    "slot": 8,
+                    "x": 80,
+                    "y": 152,
+                    "z": 130,
+                    "entityleft": false,
+                    "ehandle": 132164,
+                    "player_slot": 131
+                }
+            ],
+            "sen_log": [],
+            "obs_left_log": [],
+            "sen_left_log": [],
+            "purchase_log": [
+                {
+                    "time": -89.783,
+                    "key": "ward_observer"
+                },
+                {
+                    "time": -89.783,
+                    "key": "orb_of_venom"
+                },
+                {
+                    "time": -89.783,
+                    "key": "clarity"
+                },
+                {
+                    "time": -89.783,
+                    "key": "branches"
+                },
+                {
+                    "time": -89.783,
+                    "key": "tango"
+                },
+                {
+                    "time": -89.783,
+                    "key": "tpscroll"
+                },
+                {
+                    "time": 19.595,
+                    "key": "enchanted_mango"
+                },
+                {
+                    "time": 20.662,
+                    "key": "branches"
+                },
+                {
+                    "time": 132.101,
+                    "key": "boots"
+                }
+            ],
+            "kills_log": [
+                {
+                    "time": 124.236,
+                    "key": "npc_dota_hero_pudge"
+                }
+            ],
+            "buyback_log": [],
+            "runes_log": [
+                {
+                    "time": 0.3,
+                    "key": 5
+                },
+                {
+                    "time": 148.664,
+                    "key": 5
+                }
+            ],
+            "obs": {
+                "80": {
+                    "152": 1
+                }
+            },
+            "sen": {},
+            "actions": {
+                "1": 115,
+                "3": 17,
+                "4": 6,
+                "5": 1,
+                "6": 7,
+                "8": 1,
+                "10": 3,
+                "11": 2,
+                "15": 2,
+                "16": 9,
+                "19": 1,
+                "33": 3
+            },
+            "pings": {
+                "0": 3
+            },
+            "purchase": {
+                "ward_observer": 1,
+                "orb_of_venom": 1,
+                "clarity": 1,
+                "branches": 2,
+                "tango": 1,
+                "tpscroll": 1,
+                "enchanted_mango": 1,
+                "boots": 1
+            },
+            "gold_reasons": {
+                "0": 829,
+                "12": 332
+            },
+            "xp_reasons": {
+                "1": 30,
+                "2": 391
+            },
+            "killed": {
+                "npc_dota_hero_pudge": 41
+            },
+            "item_uses": {
+                "tango": 2,
+                "ward_observer": 1,
+                "clarity": 1
+            },
+            "ability_uses": {
+                "ogre_magi_ignite": 2,
+                "ogre_magi_fireblast": 1
+            },
+            "hero_hits": {
+                "null": 10,
+                "orb_of_venom": 18,
+                "ogre_magi_ignite": 10,
+                "ogre_magi_fireblast": 1
+            },
+            "damage": {
+                "npc_dota_hero_pudge": 868
+            },
+            "damage_taken": {
+                "npc_dota_hero_pudge": 16
+            },
+            "damage_inflictor": {
+                "null": 583,
+                "orb_of_venom": 54,
+                "ogre_magi_ignite": 190,
+                "ogre_magi_fireblast": 41
+            },
+            "runes": {
+                "5": 2
+            },
+            "killed_by": {},
+            "kill_streaks": {},
+            "multi_kills": {},
+            "life_state": {
+                "0": 310
+            },
+            "healing": {},
+            "damage_inflictor_received": {
+                "pudge_rot": 16
+            },
+            "randomed": false,
+            "pred_vict": false,
+            "gold": 796,
+            "lh": 0,
+            "xp": 421,
+            "x": 90,
+            "y": 150,
+            "hero_inventory": [
+                {
+                    "id": "item_tango",
+                    "num_charges": 1,
+                    "cooldown": 0
+                },
+                {
+                    "id": "item_orb_of_venom",
+                    "cooldown": 0
+                },
+                {
+                    "id": "item_boots",
+                    "cooldown": 0
+                },
+                {
+                    "id": "item_branches",
+                    "cooldown": 0
+                },
+                {
+                    "id": "item_branches",
+                    "cooldown": 0
+                },
+                {
+                    "id": "item_tpscroll",
+                    "num_charges": 1,
+                    "cooldown": 0
+                }
+            ],
+            "hero_stash": [],
+            "health": 760,
+            "max_health": 760,
+            "max_mana": 326.938,
+            "level": 2,
+            "kills": 1,
+            "deaths": 0,
+            "assists": 0,
+            "denies": 0,
+            "nearby_creep_death_count": 20
+        },
+        {
+            "player_slot": 132,
+            "hero_id": 34,
+            "hero_name": "npc_dota_hero_tinker",
+            "account_id_hash": "f670053eab534178568c3cd20105e09d",
+            "ability_upgrades": [],
+            "obs_placed": 0,
+            "sen_placed": 0,
+            "creeps_stacked": 0,
+            "camps_stacked": 0,
+            "rune_pickups": 0,
+            "firstblood_claimed": 0,
+            "teamfight_participation": 0,
+            "towers_killed": 0,
+            "roshans_killed": 0,
+            "observers_placed": 0,
+            "stuns": 0,
+            "max_hero_hit": {
+                "type": "max_hero_hit",
+                "time": 144.098,
+                "max": true,
+                "inflictor": "tinker_laser",
+                "unit": "npc_dota_hero_tinker",
+                "key": "npc_dota_hero_nevermore",
+                "value": 164,
+                "slot": 9,
+                "player_slot": 132
+            },
+            "times": [
+                0,
+                60,
+                120
+            ],
+            "gold_t": [
+                1,
+                425,
+                680
+            ],
+            "lh_t": [
+                0,
+                4,
+                8
+            ],
+            "dn_t": [
+                0,
+                0,
+                0
+            ],
+            "xp_t": [
+                0,
+                240,
+                616
+            ],
+            "obs_log": [],
+            "sen_log": [],
+            "obs_left_log": [],
+            "sen_left_log": [],
+            "purchase_log": [
+                {
+                    "time": -89.783,
+                    "key": "null_talisman"
+                },
+                {
+                    "time": -89.783,
+                    "key": "branches"
+                },
+                {
+                    "time": -89.783,
+                    "key": "faerie_fire"
+                },
+                {
+                    "time": -89.783,
+                    "key": "tpscroll"
+                },
+                {
+                    "time": 9.531,
+                    "key": "flask"
+                },
+                {
+                    "time": 128.369,
+                    "key": "bottle"
+                }
+            ],
+            "kills_log": [],
+            "buyback_log": [],
+            "runes_log": [],
+            "obs": {},
+            "sen": {},
+            "actions": {
+                "1": 541,
+                "3": 1,
+                "4": 125,
+                "5": 1,
+                "6": 6,
+                "7": 1,
+                "8": 2,
+                "10": 130,
+                "11": 3,
+                "16": 7,
+                "19": 2
+            },
+            "pings": {},
+            "purchase": {
+                "null_talisman": 1,
+                "branches": 1,
+                "faerie_fire": 1,
+                "tpscroll": 1,
+                "flask": 1,
+                "bottle": 1
+            },
+            "gold_reasons": {
+                "0": 760,
+                "13": 456
+            },
+            "xp_reasons": {
+                "2": 870
+            },
+            "killed": {
+                "npc_dota_creep_goodguys_ranged": 64,
+                "npc_dota_creep_goodguys_melee": 599
+            },
+            "item_uses": {
+                "branches": 1,
+                "tango_single": 1,
+                "flask": 1
+            },
+            "ability_uses": {
+                "tinker_laser": 4
+            },
+            "hero_hits": {
+                "tinker_laser": 4,
+                "null": 7
+            },
+            "damage": {
+                "npc_dota_hero_nevermore": 704,
+                "npc_dota_creep_goodguys_melee": 1093,
+                "npc_dota_creep_goodguys_ranged": 64,
+                "npc_dota_creep_badguys_melee": 355,
+                "npc_dota_hero_brewmaster": 116
+            },
+            "damage_taken": {
+                "npc_dota_creep_goodguys_melee": 222,
+                "npc_dota_hero_nevermore": 459
+            },
+            "damage_inflictor": {
+                "tinker_laser": 410,
+                "null": 410
+            },
+            "runes": {},
+            "killed_by": {},
+            "kill_streaks": {},
+            "multi_kills": {},
+            "life_state": {
+                "0": 310
+            },
+            "healing": {
+                "npc_dota_hero_tinker": 290
+            },
+            "damage_inflictor_received": {
+                "null": 159,
+                "nevermore_shadowraze3": 64,
+                "nevermore_shadowraze1": 100,
+                "nevermore_shadowraze2": 136
+            },
+            "randomed": false,
+            "pred_vict": false,
+            "gold": 851,
+            "lh": 11,
+            "xp": 870,
+            "x": 128,
+            "y": 128,
+            "hero_inventory": [
+                {
+                    "id": "item_null_talisman",
+                    "cooldown": 0
+                },
+                {
+                    "id": "item_faerie_fire",
+                    "num_charges": 1,
+                    "cooldown": 0
+                },
+                {
+                    "id": "item_tango_single",
+                    "num_charges": 1,
+                    "cooldown": 0
+                },
+                {
+                    "id": "item_tpscroll",
+                    "num_charges": 1,
+                    "cooldown": 0
+                }
+            ],
+            "hero_stash": [],
+            "health": 593,
+            "max_health": 680,
+            "max_mana": 566.938,
+            "level": 3,
+            "kills": 0,
+            "deaths": 0,
+            "assists": 0,
+            "denies": 0,
+            "nearby_creep_death_count": 17
+        }
+    ],
+    "targets": {
+        "game_time": 155,
+        "duration": 992,
+        "time_remaining": 837,
+        "radiant_win": false,
+        "next_roshan_team": null
+    }
+}
