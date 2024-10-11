@@ -34,6 +34,16 @@
 +-- note                       # 项目完成过程中的参考资料及笔记
 |   |
 |   +-- start.ipynb              # 入门教程（Jupyter Notebook 版）
+|   |
+|   +-- images                 # 存放笔记中用到的图片
+|   |
+|   +-- decisiontree.py          # 手写决策树代码
+|   |
+|   +-- decisiontree.ipynb       # 决策树笔记
+|   |
+|   +-- randomforest.py          # 手写随机森林代码
+|   |
+|   +-- randomforest.ipynb       # 随机森林笔记
 |
 +-- src                        # 源代码
     |
@@ -43,3 +53,27 @@
 ```
 
 使用 `conda create --name dota2 --file requirements.txt python=3.10(jupyter)` 创建适用于本项目的 conda 环境。
+
+---
+
+## Workflow
+
+- [ ] 10/11 - 10/15：理解原始数据中的特征含义，初步进行特征选择
+
+- [ ] 选择需要的特征后从原始数据中提取所需数据
+
+- [ ] 清理提取到的数据，进行类别编码
+
+- [ ] 进行可能的数据标准化 / 归一化
+
+- [ ] 对初步处理的数据进行特征工程
+
+- [ ] 降维（可选）
+
+- [ ] 训练模型
+
+- [ ] 结果分析与调优
+
+- [ ] 模型评价
+
+- [ ] 撰写报告
