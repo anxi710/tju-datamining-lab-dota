@@ -44,13 +44,19 @@
 |   +-- randomforest.py          # 手写随机森林代码
 |   |
 |   +-- randomforest.ipynb       # 随机森林笔记
+|   |
+|   +-- lightgbm.ipynb           # lightgbm 模型相关代码
 |
 +-- src                        # 源代码
+    |
+    +-- data                     # 模型训练用数据
     |
     +-- train.py                 # 模型训练
     |
     +-- datapreproc.py           # 数据预处理
 ```
+
+---
 
 使用 `conda create --name dota2 --file requirements.txt python=3.10(jupyter)` 创建适用于本项目的 conda 环境。
 
@@ -58,7 +64,7 @@
 
 ## Workflow
 
-- [ ] 10/11 - 10/15：理解原始数据中的特征含义，初步进行特征选择
+- [ ] 10/11 - 10/20：理解原始数据中的特征含义，初步进行特征选择
 
 - [ ] 选择需要的特征后从原始数据中提取所需数据
 
