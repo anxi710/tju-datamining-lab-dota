@@ -1,0 +1,715 @@
+{
+    "game_time": {
+        "description": "游戏时间",
+        "priority": 2
+    },
+    "match_id_hash": {
+        "description": "比赛编号的哈希值",
+        "extra-info" : "作为 pd.df 的行索引出现",
+        "priority": 0
+    },
+    "teamfights": {
+        "description" : "一系列与团战有关的信息",
+        "start": {
+            "description": "团战开始时间",
+            "priority" : 1
+        },
+        "end": {
+            "description": "团战结束时间",
+            "priority" : 1
+        },
+        "last_death": {
+            "description": "最后一次死亡发生的时间",
+            "priority" : 1
+        },
+        "deaths": {
+            "description": "死亡数",
+            "extra-info" : "理论上应该是团战期间的死亡数，但实际上并不符合",
+            "priority": 1
+        },
+        "players": {
+            "deaths_pos": {
+                "description": "死亡位置",
+                "priority": 1
+            },
+            "ability_uses": {
+                "description": "团战期间使用过的技能",
+                "priority": 4
+            },
+            "item_uses": {
+                "description": "团战期间使用过的物品",
+                "priority": 4
+            },
+            "killed": {
+                "description": "团战期间击杀的单位",
+                "extra-info" : "理论上应该是团战期间的击杀数，但实际上并不符合",
+                "priority": 4
+            },
+            "deaths": {
+                "description": "团战期间死亡次数",
+                "priority": 4
+            },
+            "buybacks" : {
+                "description": "团战期间买活次数",
+                "extra-info" : "买活是 Dota2 中的一个机制，即玩家在死亡后花费金钱立即复活",
+                "priority": 4
+            },
+            "damage": {
+                "description": "团战期间造成的伤害",
+                "priority": 4
+            },
+            "healing": {
+                "description": "团战期间的治疗量",
+                "priority": 4
+            },
+            "gold_delta": {
+                "description": "团战期间的金钱变化",
+                "priority": 4
+            },
+            "xp_delta": {
+                "description": "团战期间的经验变化",
+                "priority": 4
+            }
+        }
+    },
+    "objectives": {
+        "description": "一系列与游戏关键事件有关的信息",
+        "time": {
+            "description": "时间",
+            "priority": 1
+        },
+        "type": {
+            "description": "类型",
+            "extra-info" : "可选",
+            "priority": 1
+        },
+        "team" : {
+            "description": "队伍",
+            "extra-info" : "可选",
+            "priority": 1
+        },
+        "slot" : {
+            "priority": 1
+        },
+        "key": {
+            "description": "标识符",
+            "priority": 1
+        },
+        "player_slot": {
+            "description": "玩家编号",
+            "priority": 1
+        }
+    },
+    "chat" : {
+        "description": "一系列与聊天有关的信息",
+        "player_slot": {
+            "description": "发送玩家编号",
+            "priority": 1
+        },
+        "time": {
+            "description": "发送时间",
+            "priority": 1
+        },
+        "text" : {
+            "description": "聊天内容",
+            "priority": 1
+        }
+    },
+    "game_mode": {
+        "description": "游戏模式",
+        "priority": 1
+    },
+    "lobby_type": {
+        "description": "游戏大厅类型",
+        "priority": 1
+    },
+    "players": {
+        "player_slot": {
+            "description": "玩家编号",
+            "priority": 1
+        },
+        "hero_id": {
+            "description": "英雄编号",
+            "priority": 1
+        },
+        "hero_name": {
+            "description": "英雄名称",
+            "priority": 1
+        },
+        "account_id_hash": {
+            "description": "玩家编号的哈希值",
+            "priority": 0
+        },
+        "ability_upgrades": {
+            "description": "技能升级日志",
+            "ability": {
+                "description": "技能编号",
+                "priority": 1
+            },
+            "time": {
+                "description": "升级时间",
+                "priority": 1
+            },
+            "level": {
+                "description": "技能等级",
+                "priority": 1
+            }
+        },
+        "obs_placed": {
+            "description": "放置的观察守卫数量",
+            "priority": 1
+        },
+        "sen_placed": {
+            "description": "放置的哨兵守卫数量",
+            "priority": 1
+        },
+        "creeps_stacked": {
+            "description": "堆叠的野怪数量",
+            "extra-info" : "堆叠是 Dota2 中的一个机制，即玩家在野怪刷新前将野怪引出，使得新刷新的野怪堆叠在一起",
+            "priority": 3
+        },
+        "camps_stacked": {
+            "description": "堆叠的野营数量",
+            "priority": 3
+        },
+        "rune_pickups": {
+            "description": "拾取的符文数量",
+            "extra-info" : "中立资源，可以提供增益效果",
+            "priority": 1
+        },
+        "firstblood_claimed": {
+            "description": "是否完成了首次击杀",
+            "priority": 1
+        },
+        "teamfight_participation": {
+            "description": "团战参与度",
+            "extra-info" : "团战参与度是指玩家在团战中的表现，包括造成的伤害、击杀的单位、死亡次数等",
+            "priority": 1
+        },
+        "towers_killed": {
+            "description": "摧毁的防御塔数量",
+            "priority": 1
+        },
+        "roshans_killed": {
+            "description": "击杀的肉山数量",
+            "extra-info" : "肉山是 Dota2 中的一个中立单位，击杀后可以获得强大的增益效果",
+            "priority": 1
+        },
+        "observers_placed": {
+            "description": "放置的观察守卫数量",
+            "priority": 1
+        },
+        "stuns": {
+            "description": "造成的眩晕时间",
+            "priority": 1
+        },
+        "max_hero_hit": {
+            "description": "一系列描述造成最大伤害时的信息",
+            "type": {
+                "description": "伤害类型",
+                "priority": 1
+            },
+            "time": {
+                "description": "时间",
+                "priority": 1
+            },
+            "max": {
+                "description": "是否最大",
+                "priority": 1
+            },
+            "inflictor": {
+                "description": "伤害来源",
+                "priority": 1
+            },
+            "unit": {
+                "description": "施加伤害的单位",
+                "priority": 1
+            },
+            "key": {
+                "description": "遭受伤害的单位",
+                "priority": 1
+            },
+            "value": {
+                "description": "伤害值",
+                "priority": 1
+            },
+            "slot": {
+                "description": "",
+                "priority": 1
+            },
+            "player_slot": {
+                "description": "玩家编号",
+                "priority": 1
+            }
+        },
+        "times" : {
+            "description" : "时序数据对应的采集时间",
+            "priority" : 1
+        },
+        "gold_t": {
+            "description": "与 times 对应的金钱",
+            "priority": 1
+        },
+        "lh_t": {
+            "description": "与 times 对应的补刀数",
+            "priority": 1
+        },
+        "dn_t": {
+            "description": "与 times 对应的反补数",
+            "priority": 1
+        },
+        "xp_t": {
+            "description": "与 times 对应的经验",
+            "priority": 1
+        },
+        "obs_log": {
+            "description": "观察守卫日志",
+            "time": {
+                "description": "放置时间",
+                "priority": 1
+            },
+            "tick" : {
+                "description": "游戏内的计时单位",
+                "priority": 1
+            },
+            "type": {
+                "description": "类型",
+                "extra-info" : "obs_log",
+                "priority": 1
+            },
+            "key": {
+                "description": "放置坐标",
+                "priority": 1
+            },
+            "slot": {
+                "description": "玩家编号",
+                "priority": 1
+            },
+            "x" : {
+                "description": "X 坐标",
+                "priority": 1
+            },
+            "y" : {
+                "description": "Y 坐标",
+                "priority": 1
+            },
+            "z" : {
+                "description": "Z 坐标",
+                "priority": 1
+            },
+            "entityleft" : {
+                "description": "假眼是否被移除",
+                "extra-info" : "假眼即 observer，可以提供视野",
+                "priority": 1
+            },
+            "ehandle" : {
+                "description": "假眼编号",
+                "priority": 1
+            },
+            "player_slot" : {
+                "description": "玩家编号",
+                "priority": 1
+            }
+        },
+        "sen_log" : {
+            "description": "哨兵守卫日志",
+            "time": {
+                "description": "放置时间",
+                "priority": 1
+            },
+            "tick" : {
+                "description": "游戏内的计时单位",
+                "priority": 1
+            },
+            "type": {
+                "description": "类型",
+                "extra-info" : "sen_log",
+                "priority": 1
+            },
+            "key": {
+                "description": "放置坐标",
+                "priority": 1
+            },
+            "slot": {
+                "description": "玩家编号",
+                "priority": 1
+            },
+            "x" : {
+                "description": "X 坐标",
+                "priority": 1
+            },
+            "y" : {
+                "description": "Y 坐标",
+                "priority": 1
+            },
+            "z" : {
+                "description": "Z 坐标",
+                "priority": 1
+            },
+            "entityleft" : {
+                "description": "真眼是否被移除",
+                "extra-info" : "真眼即 sentry，可以侦测隐身单位",
+                "priority": 1
+            },
+            "ehandle" : {
+                "description": "真眼编号",
+                "priority": 1
+            },
+            "player_slot" : {
+                "description": "玩家编号",
+                "priority": 1
+            }
+        },
+        "obs_left_log" : {
+            "description": "观察守卫移除日志",
+            "time": {
+                "description": "移除时间",
+                "priority": 1
+            },
+            "tick" : {
+                "description": "游戏内的计时单位",
+                "priority": 1
+            },
+            "type": {
+                "description": "类型",
+                "extra-info" : "obs_left_log",
+                "priority": 1
+            },
+            "key": {
+                "description": "移除坐标",
+                "priority": 1
+            },
+            "slot": {
+                "description": "玩家编号",
+                "priority": 1
+            },
+            "x" : {
+                "description": "X 坐标",
+                "priority": 1
+            },
+            "y" : {
+                "description": "Y 坐标",
+                "priority": 1
+            },
+            "z" : {
+                "description": "Z 坐标",
+                "priority": 1
+            },
+            "ehandle" : {
+                "description": "假眼编号",
+                "priority": 1
+            },
+            "player_slot" : {
+                "description": "玩家编号",
+                "priority": 1
+            }
+        },
+        "sen_left_log" : {
+            "description": "哨兵守卫移除日志",
+            "time": {
+                "description": "移除时间",
+                "priority": 1
+            },
+            "tick" : {
+                "description": "游戏内的计时单位",
+                "priority": 1
+            },
+            "type": {
+                "description": "类型",
+                "extra-info" : "sen_left_log",
+                "priority": 1
+            },
+            "key": {
+                "description": "移除坐标",
+                "priority": 1
+            },
+            "slot": {
+                "description": "玩家编号",
+                "priority": 1
+            },
+            "x" : {
+                "description": "X 坐标",
+                "priority": 1
+            },
+            "y" : {
+                "description": "Y 坐标",
+                "priority": 1
+            },
+            "z" : {
+                "description": "Z 坐标",
+                "priority": 1
+            },
+            "ehandle" : {
+                "description": "真眼编号",
+                "priority": 1
+            },
+            "player_slot" : {
+                "description": "玩家编号",
+                "priority": 1
+            }
+        },
+        "purchase_log" : {
+            "description": "购买日志",
+            "time": {
+                "description": "购买时间",
+                "priority": 1
+            },
+            "key": {
+                "description": "购买物品",
+                "priority": 1
+            }
+        },
+        "kills_log" : {
+            "description": "击杀日志",
+            "time": {
+                "description": "击杀时间",
+                "priority": 1
+            },
+            "key": {
+                "description": "击杀单位",
+                "priority": 1
+            }
+        },
+        "buyback_log" : {
+            "description": "买活日志",
+            "time": {
+                "description": "买活时间",
+                "priority": 1
+            },
+            "slot": {
+                "description": "玩家编号",
+                "priority": 1
+            },
+            "type" : {
+                "description": "buyback_log",
+                "priority": 1
+            },
+            "player_slot": {
+                "description": "玩家编号",
+                "priority": 1
+            }
+        },
+        "runes_log" : {
+            "description": "拾取符文日志",
+            "time": {
+                "description": "拾取符文时间",
+                "priority": 1
+            },
+            "key": {
+                "description": "符文类型",
+                "priority": 1
+            }
+        },
+        "obs" : {
+            "description": "放置的观察守卫坐标及个数",
+            "extra-info" : "格式为 \"x\" : {\"y\" : count}",
+            "priority": 1
+        },
+        "sen" : {
+            "description": "放置的哨兵守卫坐标及个数",
+            "extra-info" : "格式为 \"x\" : {\"y\" : count}",
+            "priority": 1
+        },
+        "actions" : {
+            "description": "玩家行为日志",
+            "extra-info" : "格式为 \"编号\" : count",
+            "priority": 1
+        },
+        "pings" : {
+            "description": "玩家发出的 ping 数量",
+            "extra-info" : "ping 是 Dota2 中的一个机制（快速地图标记），可以用来与队友交流，格式为 \"编号\" : count",
+            "priority": 1
+        },
+        "purchase" : {
+            "description": "所有的购买物品",
+            "extra-info" : "格式为 \"编号\" : count",
+            "priority": 1
+        },
+        "gold_reasons" : {
+            "description": "金钱来源",
+            "extra-info" : "格式为 \"编号\" : count",
+            "priority": 1
+        },
+        "xp_reasons" : {
+            "description": "经验来源",
+            "extra-info" : "格式为 \"编号\" : count",
+            "priority": 1
+        },
+        "killed" : {
+            "description": "击杀的单位",
+            "extra-info" : "数量异常，可能是错误数据",
+            "priority": 1
+        },
+        "item_uses" : {
+            "description": "使用的物品",
+            "extra-info" : "格式为 \"名称\" : count",
+            "priority": 1
+        },
+        "ability_uses" : {
+            "description": "使用的技能",
+            "extra-info" : "格式为 \"名称\" : count",
+            "priority": 1
+        },
+        "hero_hits" : {
+            "description": "英雄命中",
+            "extra-info" : "格式为 \"名称\" : count",
+            "priority": 1
+        },
+        "damage" : {
+            "description": "造成的伤害",
+            "extra-info" : "格式为 \"名称\" : count",
+            "priority": 1
+        },
+        "damage_taken" : {
+            "description": "受到的伤害",
+            "extra-info" : "格式为 \"名称\" : count",
+            "priority": 1
+        },
+        "damage_inflictor" : {
+            "description": "伤害来源",
+            "extra-info" : "格式为 \"名称\" : count",
+            "priority": 1
+        },
+        "runes" : {
+            "description": "拾取的符文",
+            "extra-info" : "格式为 \"名称\" : count",
+            "priority": 1
+        },
+        "killed_by" : {
+            "description": "被击杀",
+            "extra-info" : "格式为 \"名称\" : count",
+            "priority": 1
+        },
+        "kill_streaks" : {
+            "description": "连杀次数",
+            "extra-info" : "格式为 \"连杀数\" : count",
+            "priority": 1
+        },
+        "multi_kills" : {
+            "description": "多杀次数",
+            "extra-info" : "一条命内达成，格式为 \"多杀数\" : count",
+            "priority": 1
+        },
+        "life_state" : {
+            "description": "生存状态",
+            "extra-info" : "格式为 \"编号\" : count",
+            "priority": 1
+        },
+        "healing" : {
+            "description": "治疗量",
+            "extra-info" : "格式为 \"名称\" : count",
+            "priority": 1
+        },
+        "damage_inflictor_received" : {
+            "description": "受到的伤害来源",
+            "extra-info" : "格式为 \"名称\" : count",
+            "priority": 1
+        },
+        "randomed" : {
+            "description": "是否随机选择英雄",
+            "priority": 1
+        },
+        "pred_vict" : {
+            "description": "预测胜利",
+            "priority": 1
+        },
+        "gold" : {
+            "description": "金钱",
+            "priority": 1
+        },
+        "lh" : {
+            "description": "补刀数",
+            "priority": 1
+        },
+        "xp" : {
+            "description": "经验",
+            "priority": 1
+        },
+        "x" : {
+            "description": "X 坐标",
+            "priority": 1
+        },
+        "y" : {
+            "description": "Y 坐标",
+            "priority": 1
+        },
+        "hero_inventory" : {
+            "description": "英雄物品栏",
+            "id" : {
+                "description": "物品编号",
+                "priority": 1
+            },
+            "cooldown" : {
+                "description": "冷却时间",
+                "priority": 1
+            }
+        },
+        "hero_stash" : {
+            "description": "英雄背包",
+            "id" : {
+                "description": "物品编号",
+                "priority": 1
+            },
+            "cooldown" : {
+                "description": "冷却时间",
+                "priority": 1
+            }
+        },
+        "health" : {
+            "description": "生命值",
+            "priority": 1
+        },
+        "max_health" : {
+            "description": "最大生命值",
+            "priority": 1
+        },
+        "max_mana" : {
+            "description": "最大法力值",
+            "priority": 1
+        },
+        "level" : {
+            "description": "等级",
+            "priority": 1
+        },
+        "kills" : {
+            "description": "击杀数",
+            "priority": 1
+        },
+        "deaths" : {
+            "description": "死亡数",
+            "priority": 1
+        },
+        "assists" : {
+            "description": "助攻数",
+            "priority": 1
+        },
+        "denies" : {
+            "description": "反补数",
+            "priority": 1
+        },
+        "nearby_creep_death_count" : {
+            "description": "附近的小兵死亡数",
+            "priority": 1
+        }
+    },
+    "targets": {
+        "game_time": {
+            "description": "游戏时间",
+            "priority": 2
+        },
+        "duration": {
+            "description": "比赛持续时间\/游戏时间",
+            "priority": 2
+        },
+        "time_remaining": {
+            "description": "游戏剩余时间"
+        },
+        "radiant_win": {
+            "description": "某一方是否胜利"
+        },
+        "next_roshan_team": {
+            "description": "下一只击杀肉山的队伍",
+            "priority": 4
+        }
+    }
+}

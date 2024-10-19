@@ -1,0 +1,151 @@
+{
+    "game_time": "",
+    "match_id_hash": "",
+    "teamfights": {
+        "players": {
+            "ability_uses": "",
+            "item_uses": "",
+            "damage": "",
+            "xp_end": "",
+            "buybacks": ""
+        },
+        "deaths": "",
+        "end": "",
+        "last_death": "",
+        "start": ""
+    },
+    "game_mode": "",
+    "lobby_type": "",
+    "players": {
+        "damage_inflictor": "",
+        "obs_log": {
+            "player_slot": "",
+            "tick": "",
+            "z": "",
+            "time": "",
+            "slot": "",
+            "ehandle": "",
+            "x": ""
+        },
+        "hero_hits": "",
+        "ability_uses": "",
+        "item_uses": "",
+        "damage_inflictor_received": "",
+        "purchase": "",
+        "dn_t": "",
+        "assists": "",
+        "hero_inventory": {
+            "num_secondary_charges": "",
+            "cooldown": "",
+            "num_charges": ""
+        },
+        "runes_log": "",
+        "observers_placed": "",
+        "killed": "",
+        "max_hero_hit": {
+            "max": "",
+            "time": "",
+            "unit": ""
+        },
+        "buyback_log": {
+            "slot": "",
+            "player_slot": ""
+        },
+        "obs_left_log": {
+            "type": "",
+            "z": "",
+            "time": "",
+            "entityleft": "",
+            "slot": "",
+            "ehandle": "",
+            "x": ""
+        },
+        "hero_id": "",
+        "account_id_hash": "",
+        "sen_left_log": {
+            "key": "",
+            "player_slot": "",
+            "tick": "",
+            "type": "",
+            "z": "",
+            "time": "",
+            "entityleft": "",
+            "slot": "",
+            "ehandle": ""
+        },
+        "healing": "",
+        "sen_log": {
+            "z": "",
+            "time": ""
+        },
+        "teamfight_participation": "",
+        "life_state": "",
+        "kills_log": {
+            "tracked_sourcename": "",
+            "key": "",
+            "tracked_death": "",
+            "time": ""
+        },
+        "level": "",
+        "max_mana": "",
+        "xp": "",
+        "times": "",
+        "kills": "",
+        "killed_by": {
+            "dota_fountain": ""
+        },
+        "hero_stash": {
+            "stat": ""
+        },
+        "roshans_killed": "",
+        "obs": "",
+        "nearby_creep_death_count": "",
+        "purchase_log": {
+            "time": "",
+            "key" : ""
+        },
+        "x": "",
+        "obs_placed": "",
+        "multi_kills": "",
+        "kill_streaks": "",
+        "camps_stacked": "",
+        "xp_t": "",
+        "pred_vict": "",
+        "y": "",
+        "max_health": "",
+        "damage": "",
+        "xp_reasons": "",
+        "health": "",
+        "ability_upgrades": "",
+        "randomed": "",
+        "lh_t": "",
+        "gold_reasons": "",
+        "towers_killed": "",
+        "damage_taken": {
+            "dota_unknown": ""
+        },
+        "rune_pickups": "",
+        "gold": "",
+        "firstblood_claimed": "",
+        "sen_placed": "",
+        "runes": "",
+        "gold_t": "",
+        "creeps_stacked": "",
+        "player_slot": "",
+        "denies": "",
+        "sen": "",
+        "deaths": "",
+        "stuns": "",
+        "pings": "",
+        "hero_name": "",
+        "lh": "",
+        "actions": ""
+    },
+    "targets": {
+        "game_time": "",
+        "duration": "",
+        "time_remaining": "",
+        "radiant_win": "",
+        "next_roshan_team": ""
+    }
+}
