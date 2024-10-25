@@ -653,6 +653,10 @@
             "cooldown" : {
                 "description": "冷却时间",
                 "priority": 1
+            },
+            "num_charges" : {
+                "description": "数量",
+                "priority": 1
             }
         },
         "health" : {
