@@ -1,0 +1,203 @@
+{
+    "players": {
+        "hero_inventory": {
+            "id": {},
+            "stat": {},
+            "num_charges": {},
+            "num_secondary_charges": {},
+            "cooldown": {}
+        },
+        "life_state": {},
+        "hero_stash": {
+            "cooldown": {},
+            "id": {},
+            "num_charges": {},
+            "num_secondary_charges": {},
+            "stat": {}
+        },
+        "sen_left_log": {
+            "time": {},
+            "z": {},
+            "x": {},
+            "ehandle": {},
+            "y": {},
+            "slot": {},
+            "key": {},
+            "entityleft": {},
+            "player_slot": {},
+            "type": {},
+            "tick": {}
+        },
+        "damage_inflictor_received": {},
+        "max_mana": {},
+        "max_hero_hit": {
+            "inflictor": {},
+            "slot": {},
+            "max": {},
+            "key": {},
+            "player_slot": {},
+            "value": {},
+            "unit": {},
+            "type": {},
+            "time": {}
+        },
+        "purchase_log": {
+            "time": {},
+            "key": {}
+        },
+        "obs_log": {
+            "entityleft": {},
+            "player_slot": {},
+            "slot": {},
+            "type": {},
+            "tick": {},
+            "time": {},
+            "z": {},
+            "x": {},
+            "ehandle": {},
+            "y": {},
+            "key": {}
+        },
+        "obs_left_log": {
+            "ehandle": {},
+            "key": {},
+            "entityleft": {},
+            "player_slot": {},
+            "type": {},
+            "tick": {},
+            "time": {},
+            "z": {},
+            "x": {},
+            "y": {},
+            "slot": {}
+        },
+        "creeps_stacked": {},
+        "kills_log": {
+            "tracked_death": {},
+            "time": {},
+            "key": {},
+            "tracked_sourcename": {}
+        },
+        "gold_t": {},
+        "killed": {},
+        "kills": {},
+        "sen_log": {
+            "time": {},
+            "z": {},
+            "entityleft": {},
+            "y": {},
+            "slot": {},
+            "type": {},
+            "tick": {},
+            "x": {},
+            "ehandle": {},
+            "key": {},
+            "player_slot": {}
+        },
+        "lh": {},
+        "lh_t": {},
+        "denies": {},
+        "buyback_log": {
+            "time": {},
+            "player_slot": {},
+            "slot": {},
+            "type": {}
+        },
+        "sen_placed": {},
+        "nearby_creep_death_count": {},
+        "towers_killed": {},
+        "rune_pickups": {},
+        "firstblood_claimed": {},
+        "y": {},
+        "randomed": {},
+        "hero_name": {},
+        "runes_log": {
+            "key": {},
+            "time": {}
+        },
+        "stuns": {},
+        "purchase": {},
+        "max_health": {},
+        "sen": {},
+        "healing": {},
+        "xp_t": {},
+        "kill_streaks": {},
+        "gold_reasons": {},
+        "ability_upgrades": {
+            "ability": {},
+            "level": {},
+            "time": {}
+        },
+        "xp_reasons": {},
+        "times": {},
+        "health": {},
+        "actions": {},
+        "pred_vict": {},
+        "camps_stacked": {},
+        "ability_uses": {},
+        "dn_t": {},
+        "deaths": {},
+        "obs_placed": {},
+        "roshans_killed": {},
+        "damage_taken": {
+            "dota_unknown": {},
+            "dota_fountain": {}
+        },
+        "x": {},
+        "gold": {},
+        "hero_hits": {},
+        "account_id_hash": {},
+        "damage_inflictor": {},
+        "multi_kills": {},
+        "teamfight_participation": {},
+        "pings": {},
+        "item_uses": {},
+        "hero_id": {},
+        "player_slot": {},
+        "xp": {},
+        "level": {},
+        "observers_placed": {},
+        "runes": {},
+        "damage": {},
+        "obs": {},
+        "killed_by": {
+            "dota_fountain": {}
+        },
+        "assists": {}
+    },
+    "objectives": {
+        "key": {},
+        "player_slot": {},
+        "team": {},
+        "type": {},
+        "time": {},
+        "slot": {}
+    },
+    "teamfights": {
+        "last_death": {},
+        "deaths": {},
+        "players": {
+            "buybacks": {},
+            "xp_delta": {},
+            "item_uses": {},
+            "healing": {},
+            "ability_uses": {},
+            "deaths": {},
+            "killed": {},
+            "damage": {},
+            "gold_delta": {},
+            "deaths_pos": {}
+        },
+        "start": {},
+        "end": {}
+    },
+    "chat": {
+        "player_slot": {},
+        "text": {},
+        "time": {}
+    },
+    "game_time": {},
+    "game_mode": {},
+    "lobby_type": {},
+    "match_id_hash": {}
+}

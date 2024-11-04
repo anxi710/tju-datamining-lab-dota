@@ -1,0 +1,638 @@
+{
+    "players": {
+        "hero_inventory": {
+            "id": {
+                "description": "编号",
+                "priority": NaN
+            },
+            "stat": {},
+            "num_charges": {
+                "description": "使用次数\/充能次数",
+                "priority": 5
+            },
+            "num_secondary_charges": {},
+            "cooldown": {
+                "description": "冷却时间",
+                "priority": NaN
+            }
+        },
+        "life_state": {
+            "description": "生存状态",
+            "priority": 4
+        },
+        "hero_stash": {
+            "cooldown": {
+                "description": "冷却时间",
+                "priority": NaN
+            },
+            "id": {
+                "description": "编号",
+                "priority": NaN
+            },
+            "num_charges": {
+                "description": "使用次数\/充能次数",
+                "priority": 5
+            },
+            "num_secondary_charges": {},
+            "stat": {}
+        },
+        "sen_left_log": {
+            "time": {
+                "description": "时间",
+                "priority": NaN
+            },
+            "z": {
+                "description": "坐标",
+                "priority": NaN
+            },
+            "x": {
+                "description": "坐标",
+                "priority": NaN
+            },
+            "ehandle": {
+                "description": "实体句柄",
+                "priority": 0
+            },
+            "y": {
+                "description": "坐标",
+                "priority": NaN
+            },
+            "slot": {
+                "description": "玩家编号",
+                "priority": 1
+            },
+            "key": {
+                "description": "键\/标识符",
+                "priority": NaN
+            },
+            "entityleft": {
+                "description": "实体是否离开",
+                "priority": 1
+            },
+            "player_slot": {
+                "description": "玩家编号",
+                "priority": NaN
+            },
+            "type": {
+                "description": "注解",
+                "priority": NaN
+            },
+            "tick": {
+                "description": "帧",
+                "priority": NaN
+            }
+        },
+        "damage_inflictor_received": {
+            "description": "伤害接收",
+            "priority": 5
+        },
+        "max_mana": {
+            "description": "最大法力",
+            "priority": 4
+        },
+        "max_hero_hit": {
+            "inflictor": {
+                "description": "来源",
+                "priority": NaN
+            },
+            "slot": {
+                "description": "玩家编号",
+                "priority": 1
+            },
+            "max": {
+                "description": "最大",
+                "priority": 0
+            },
+            "key": {
+                "description": "键\/标识符",
+                "priority": NaN
+            },
+            "player_slot": {
+                "description": "玩家编号",
+                "priority": NaN
+            },
+            "value": {
+                "description": "伤害的值",
+                "priority": 5
+            },
+            "unit": {
+                "description": "造成伤害的玩家",
+                "priority": 1
+            },
+            "type": {
+                "description": "注解",
+                "priority": NaN
+            },
+            "time": {
+                "description": "时间",
+                "priority": NaN
+            }
+        },
+        "purchase_log": {
+            "time": {
+                "description": "时间",
+                "priority": NaN
+            },
+            "key": {
+                "description": "键\/标识符",
+                "priority": NaN
+            }
+        },
+        "obs_log": {
+            "entityleft": {
+                "description": "实体是否离开",
+                "priority": 1
+            },
+            "player_slot": {
+                "description": "玩家编号",
+                "priority": NaN
+            },
+            "slot": {
+                "description": "玩家编号",
+                "priority": 1
+            },
+            "type": {
+                "description": "注解",
+                "priority": NaN
+            },
+            "tick": {
+                "description": "帧",
+                "priority": NaN
+            },
+            "time": {
+                "description": "时间",
+                "priority": NaN
+            },
+            "z": {
+                "description": "坐标",
+                "priority": NaN
+            },
+            "x": {
+                "description": "坐标",
+                "priority": NaN
+            },
+            "ehandle": {
+                "description": "实体句柄",
+                "priority": 0
+            },
+            "y": {
+                "description": "坐标",
+                "priority": NaN
+            },
+            "key": {
+                "description": "键\/标识符",
+                "priority": NaN
+            }
+        },
+        "obs_left_log": {
+            "ehandle": {
+                "description": "实体句柄",
+                "priority": 0
+            },
+            "key": {
+                "description": "键\/标识符",
+                "priority": NaN
+            },
+            "entityleft": {
+                "description": "实体是否离开",
+                "priority": 1
+            },
+            "player_slot": {
+                "description": "玩家编号",
+                "priority": NaN
+            },
+            "type": {
+                "description": "注解",
+                "priority": NaN
+            },
+            "tick": {
+                "description": "帧",
+                "priority": NaN
+            },
+            "time": {
+                "description": "时间",
+                "priority": NaN
+            },
+            "z": {
+                "description": "坐标",
+                "priority": NaN
+            },
+            "x": {
+                "description": "坐标",
+                "priority": NaN
+            },
+            "y": {
+                "description": "坐标",
+                "priority": NaN
+            },
+            "slot": {
+                "description": "玩家编号",
+                "priority": 1
+            }
+        },
+        "creeps_stacked": {
+            "description": "堆叠的野怪数量  ",
+            "priority": 4
+        },
+        "kills_log": {
+            "tracked_death": {},
+            "time": {
+                "description": "时间",
+                "priority": NaN
+            },
+            "key": {
+                "description": "键\/标识符",
+                "priority": NaN
+            },
+            "tracked_sourcename": {}
+        },
+        "gold_t": {
+            "description": "每分钟金钱增长",
+            "priority": 4
+        },
+        "killed": {
+            "description": "击杀的单位",
+            "priority": 5
+        },
+        "kills": {
+            "description": "击杀数",
+            "priority": 5
+        },
+        "sen_log": {
+            "time": {
+                "description": "时间",
+                "priority": NaN
+            },
+            "z": {
+                "description": "坐标",
+                "priority": NaN
+            },
+            "entityleft": {
+                "description": "实体是否离开",
+                "priority": 1
+            },
+            "y": {
+                "description": "坐标",
+                "priority": NaN
+            },
+            "slot": {
+                "description": "玩家编号",
+                "priority": 1
+            },
+            "type": {
+                "description": "注解",
+                "priority": NaN
+            },
+            "tick": {
+                "description": "帧",
+                "priority": NaN
+            },
+            "x": {
+                "description": "坐标",
+                "priority": NaN
+            },
+            "ehandle": {
+                "description": "实体句柄",
+                "priority": 0
+            },
+            "key": {
+                "description": "键\/标识符",
+                "priority": NaN
+            },
+            "player_slot": {
+                "description": "玩家编号",
+                "priority": NaN
+            }
+        },
+        "lh": {
+            "description": "补刀",
+            "priority": 4
+        },
+        "lh_t": {
+            "description": "每分钟补刀数",
+            "priority": 3
+        },
+        "denies": {
+            "description": "反补\/反野",
+            "priority": 4
+        },
+        "buyback_log": {
+            "time": {
+                "description": "时间",
+                "priority": NaN
+            },
+            "player_slot": {
+                "description": "玩家编号",
+                "priority": NaN
+            },
+            "slot": {
+                "description": "玩家编号",
+                "priority": 1
+            },
+            "type": {
+                "description": "注解",
+                "priority": NaN
+            }
+        },
+        "sen_placed": {
+            "description": "？",
+            "priority": 3
+        },
+        "nearby_creep_death_count": {
+            "description": "附近小兵死亡数",
+            "priority": 4
+        },
+        "towers_killed": {
+            "description": "击毁的防御塔数量",
+            "priority": 5
+        },
+        "rune_pickups": {
+            "description": "玩家拾取神符的次数",
+            "priority": 4
+        },
+        "firstblood_claimed": {
+            "description": "首杀",
+            "priority": 5
+        },
+        "y": {
+            "description": "坐标",
+            "priority": NaN
+        },
+        "randomed": {
+            "description": "玩家是否随机选择英雄",
+            "priority": 3
+        },
+        "hero_name": {
+            "description": "英雄名称",
+            "priority": 1
+        },
+        "runes_log": {
+            "key": {
+                "description": "键\/标识符",
+                "priority": NaN
+            },
+            "time": {
+                "description": "时间",
+                "priority": NaN
+            }
+        },
+        "stuns": {
+            "description": "眩晕",
+            "priority": 4
+        },
+        "purchase": {
+            "description": "购买",
+            "priority": 4
+        },
+        "max_health": {
+            "description": "最大生命",
+            "priority": 5
+        },
+        "sen": {
+            "description": "？猜测是某个类似侦察守卫的东西",
+            "priority": 3
+        },
+        "healing": {
+            "description": "治疗量",
+            "priority": 4
+        },
+        "xp_t": {
+            "description": "经验",
+            "priority": 4
+        },
+        "kill_streaks": {
+            "description": "击杀连杀数",
+            "priority": 4
+        },
+        "gold_reasons": {
+            "description": "获取金钱来源",
+            "priority": 4
+        },
+        "ability_upgrades": {
+            "ability": {},
+            "level": {
+                "description": "英雄等级",
+                "priority": 5
+            },
+            "time": {
+                "description": "时间",
+                "priority": NaN
+            }
+        },
+        "xp_reasons": {
+            "description": "经验来源",
+            "priority": 1
+        },
+        "times": {
+            "description": "记录了一系列时间点",
+            "priority": NaN
+        },
+        "health": {
+            "description": "当前生命值  ",
+            "priority": 5
+        },
+        "actions": {
+            "description": "玩家动作统计  ",
+            "priority": 3
+        },
+        "pred_vict": {
+            "description": "预测胜利者",
+            "priority": NaN
+        },
+        "camps_stacked": {
+            "description": "营地堆砌",
+            "priority": 4
+        },
+        "ability_uses": {
+            "description": "技能使用",
+            "priority": 4
+        },
+        "dn_t": {
+            "description": "每分钟反补数  ",
+            "priority": 3
+        },
+        "deaths": {
+            "description": "死亡",
+            "priority": 5
+        },
+        "obs_placed": {
+            "description": "放置的观察守卫",
+            "priority": 3
+        },
+        "roshans_killed": {
+            "description": "击杀肉山的次数",
+            "priority": 5
+        },
+        "damage_taken": {
+            "dota_unknown": {},
+            "dota_fountain": {}
+        },
+        "x": {
+            "description": "坐标",
+            "priority": NaN
+        },
+        "gold": {
+            "description": "金钱",
+            "priority": 5
+        },
+        "hero_hits": {
+            "description": "技能命中",
+            "priority": 4
+        },
+        "account_id_hash": {
+            "description": "账号哈希值",
+            "priority": 0
+        },
+        "damage_inflictor": {
+            "description": "伤害来源",
+            "priority": 5
+        },
+        "multi_kills": {
+            "description": "多重击杀",
+            "priority": 3
+        },
+        "teamfight_participation": {
+            "description": "团战参与度",
+            "priority": 4
+        },
+        "pings": {
+            "description": "延迟",
+            "priority": 1
+        },
+        "item_uses": {
+            "description": "物品使用",
+            "priority": 5
+        },
+        "hero_id": {
+            "description": "英雄编号",
+            "priority": 1
+        },
+        "player_slot": {
+            "description": "玩家编号",
+            "priority": NaN
+        },
+        "xp": {
+            "description": "经验",
+            "priority": 5
+        },
+        "level": {
+            "description": "英雄等级",
+            "priority": 5
+        },
+        "observers_placed": {
+            "description": "放置的观察守卫",
+            "priority": 4
+        },
+        "runes": {
+            "description": "神符的类型",
+            "priority": 1
+        },
+        "damage": {
+            "description": "伤害",
+            "priority": 5
+        },
+        "obs": {
+            "description": "观察守卫",
+            "priority": 3
+        },
+        "killed_by": {
+            "dota_fountain": {}
+        },
+        "assists": {
+            "description": "助攻",
+            "priority": 5
+        }
+    },
+    "objectives": {
+        "key": {
+            "description": "键\/标识符",
+            "priority": NaN
+        },
+        "player_slot": {
+            "description": "玩家编号",
+            "priority": NaN
+        },
+        "team": {},
+        "type": {
+            "description": "注解",
+            "priority": NaN
+        },
+        "time": {
+            "description": "时间",
+            "priority": NaN
+        },
+        "slot": {
+            "description": "玩家编号",
+            "priority": 1
+        }
+    },
+    "teamfights": {
+        "last_death": {},
+        "deaths": {
+            "description": "死亡",
+            "priority": 5
+        },
+        "players": {
+            "buybacks": {},
+            "xp_delta": {},
+            "item_uses": {
+                "description": "物品使用",
+                "priority": 5
+            },
+            "healing": {
+                "description": "治疗量",
+                "priority": 4
+            },
+            "ability_uses": {
+                "description": "技能使用",
+                "priority": 4
+            },
+            "deaths": {
+                "description": "死亡",
+                "priority": 5
+            },
+            "killed": {
+                "description": "击杀的单位",
+                "priority": 5
+            },
+            "damage": {
+                "description": "伤害",
+                "priority": 5
+            },
+            "gold_delta": {},
+            "deaths_pos": {}
+        },
+        "start": {},
+        "end": {}
+    },
+    "chat": {
+        "player_slot": {
+            "description": "玩家编号",
+            "priority": NaN
+        },
+        "text": {
+            "description": "聊天文本",
+            "priority": NaN
+        },
+        "time": {
+            "description": "时间",
+            "priority": NaN
+        }
+    },
+    "game_time": {
+        "description": "游戏时间",
+        "priority": 2
+    },
+    "game_mode": {
+        "description": "游戏模式",
+        "priority": 1
+    },
+    "lobby_type": {
+        "description": "比赛大厅类型",
+        "priority": 0
+    },
+    "match_id_hash": {
+        "description": "比赛编号的哈希值",
+        "priority": 0
+    }
+}

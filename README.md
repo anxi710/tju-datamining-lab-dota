@@ -15,6 +15,8 @@
 |
 +-- data                       # 数据集
 |   |
+|   +-- feature_description.md   # gpt 生成的一些特征描述
+|   |
 |   +-- sample_submission.csv    # 测试结果提交模版
 |   |
 |   +-- test_features.csv        # 测试用特征集
@@ -44,13 +46,21 @@
 |   +-- randomforest.py          # 手写随机森林代码
 |   |
 |   +-- randomforest.ipynb       # 随机森林笔记
+|   |
+|   +-- lightgbm.ipynb           # lightgbm 模型相关代码
 |
 +-- src                        # 源代码
+    |
+    +-- data                     # 模型训练用数据
     |
     +-- train.py                 # 模型训练
     |
     +-- datapreproc.py           # 数据预处理
+    |
+    +-- printfeaturetree.py      # 打印特征层次结构
 ```
+
+---
 
 使用 `conda create --name dota2 --file requirements.txt python=3.10(jupyter)` 创建适用于本项目的 conda 环境。
 
@@ -58,7 +68,7 @@
 
 ## Workflow
 
-- [ ] 10/11 - 10/15：理解原始数据中的特征含义，初步进行特征选择
+- [x] 10/11 - 10/19：理解原始数据中的特征含义，初步进行特征选择
 
 - [ ] 选择需要的特征后从原始数据中提取所需数据
 
