@@ -6,58 +6,32 @@
 
 ```powershell
 .
-|
-+-- .gitignore                   # 跟踪时需要忽略的文件
-|
-+-- requirements.txt             # 需要安装的 python 软件包
-|
-+-- README.md                    # 当前文件
-|
-+-- data                       # 数据集
-|   |
-|   +-- feature_description.md   # gpt 生成的一些特征描述
-|   |
-|   +-- sample_submission.csv    # 测试结果提交模版
-|   |
-|   +-- test_features.csv        # 测试用特征集
-|   |
-|   +-- train_features.csv       # 训练用特征集
-|   |
-|   +-- train_targets.csv        # 训练用标签集
-|   |
-|   +-- linux_proc_cmd.txt       # 处理数据用到的 Linux 命令
-|   |
-|   +-- small_train_matches.json # 前二十个原始训练数据样本（方便打开查看）
-|   |
-|   +-- matches_features_all.txt # 原始数据中的所有 feature
-|
-+-- docs                       # 课程提交所需文档
-|
-+-- note                       # 项目完成过程中的参考资料及笔记
-|   |
-|   +-- start.ipynb              # 入门教程（Jupyter Notebook 版）
-|   |
-|   +-- images                 # 存放笔记中用到的图片
-|   |
-|   +-- decisiontree.py          # 手写决策树代码
-|   |
-|   +-- decisiontree.ipynb       # 决策树笔记
-|   |
-|   +-- randomforest.py          # 手写随机森林代码
-|   |
-|   +-- randomforest.ipynb       # 随机森林笔记
-|   |
-|   +-- lightgbm.ipynb           # lightgbm 模型相关代码
-|
-+-- src                        # 源代码
-    |
-    +-- data                     # 模型训练用数据
-    |
-    +-- train.py                 # 模型训练
-    |
-    +-- datapreproc.py           # 数据预处理
-    |
-    +-- printfeaturetree.py      # 打印特征层次结构
+├── README.md
+├── data
+│   ├── extracted_data            # 从原始数据中初步提取的数据文件
+│   ├── input_test.jsonl          # 小样本测试数据（100 个）
+│   ├── sample_submission.csv     # 示例提交文件
+│   ├── small_train_matches.json  # 小样本测试数据（30 个）
+│   ├── test_features.csv         # 主办方提供的测试特征集
+│   ├── test_matches.jsonl        # 主办方提供的原始测试数据集
+│   ├── train_features.csv        # 主办方提供的训练特征集
+│   ├── train_matches.jsonl       # 主办方提供的原始训练数据集
+│   └── train_targets.csv         # 主办方提供的训练标签集
+├── docs
+├── linux_proc_cmd.txt
+├── note
+│   ├── RF_DT  # 随机森林和决策树笔记
+│   ├── lightgbm-allFeature-importance.ipynb
+│   ├── lightgbm-starter-code.ipynb
+│   ├── lightgbm.ipynb
+│   └── start.ipynb  # 主办方提供的入门笔记
+├── requirements.txt
+└── src
+    ├── data               # 存放处理后的数据及结果数据
+    ├── datapreproc.ipynb  # 数据预处理
+    ├── test.ipynb         # 在该文件中测试数据预处理和训练过程中遇到的问题
+    ├── train.ipynb        # 训练模型
+    └── utils              # 存放预处理及训练过程中可能用到的功能函数
 ```
 
 ---

@@ -1,2 +1,12 @@
+# Ignore large files in the data directory(raw data)
 data/test_matches.jsonl
 data/train_matches.jsonl
+
+# Ignore all files in the src/data directory
+src/data/*
+# Except following files
+!src/data/dota-features.xlsx
+!src/data/features_description.jsonl
+
+src/utils/__pycache__/
+data/extracted_data/
