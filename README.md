@@ -1,6 +1,6 @@
 # TJU 数据挖掘课程实践大作业
 
-本项目是同济大学2024年秋季数据挖掘课程的实践大作业，完成 Kaggle 上的 Dota 2 Winner Prediction 比赛。
+本项目是同济大学2024年秋季数据挖掘课程的实践大作业，完成 Kaggle 上的 [Dota 2 Winner Prediction](https://www.kaggle.com/competitions/mlcourse-dota2-win-prediction/overview) 比赛。
 
 目录简介：
 
@@ -8,7 +8,7 @@
 .
 ├── README.md
 ├── data
-│   ├── extracted_data            # 从原始数据中初步提取的数据文件
+│   ├── extracted_data            # 从原始数据中初步提取的数据文件（运行代码后自动生成）
 │   ├── input_test.jsonl          # 小样本测试数据（100 个）
 │   ├── sample_submission.csv     # 示例提交文件
 │   ├── small_train_matches.json  # 小样本测试数据（30 个）
