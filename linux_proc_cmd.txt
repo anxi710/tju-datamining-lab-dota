@@ -1,0 +1,3 @@
+$ head --lines 20 train_matches.jsonl > small_train_matches.json
+
+$ head --lines 1 train_matches.jsonl | grep -oP '"[a-z_A-Z]+":' | sed 's/://g' | sort | uniq > matches_features_all.txt

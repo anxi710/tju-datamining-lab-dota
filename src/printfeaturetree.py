@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import pandas as pd
 import ujson as json       # 用于读入 .json 文件
 
@@ -85,5 +86,6 @@ if __name__ == '__main__':
     #     print(key)
     # print(features_tree)
 
-    with open('data/features_tree.txt', 'w', encoding='utf-8') as f:
+    with open('data/features_tree_test.txt', 'w', encoding='utf-8') as f:
         print_tree(features_tree, file=f)
+
