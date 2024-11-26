@@ -4,3 +4,6 @@ matplotlib
 ujson
 tqdm
 numpy
+scikit-optimize
+scipy
+matplotlib
