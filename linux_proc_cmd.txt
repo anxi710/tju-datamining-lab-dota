@@ -1,3 +1,12 @@
 $ head --lines 20 train_matches.jsonl > small_train_matches.json
 
 $ head --lines 1 train_matches.jsonl | grep -oP '"[a-z_A-Z]+":' | sed 's/://g' | sort | uniq > matches_features_all.txt
+
+$ find . -name '*.py' | xargs wc -l
+
+$ sed -i 's/players-[0-9]-//g' file_name.csv
+
+$ sed -i 's/,/\n/g' file_name.csv
+
+$ dos2unix --newfile path/to/file path/to/new_file
+

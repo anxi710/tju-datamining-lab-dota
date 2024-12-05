@@ -9,6 +9,5 @@ src/data/*
 !src/data/features_description.jsonl
 
 src/utils/__pycache__/
-data/extracted_data/
-
 src/data/extracted_data/
+src/images/
