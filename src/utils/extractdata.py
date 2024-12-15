@@ -136,7 +136,6 @@ def extract_teamfights(matches_file):
     # 将数据转换为 DataFrame
     return pd.DataFrame(data, columns=key_name)
 
-
 # 5. 提取 players table
 def extract_players(matches_file):
     """
