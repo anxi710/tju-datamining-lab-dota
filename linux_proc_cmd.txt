@@ -9,4 +9,3 @@ $ sed -i 's/players-[0-9]-//g' file_name.csv
 $ sed -i 's/,/\n/g' file_name.csv
 
 $ dos2unix --newfile path/to/file path/to/new_file
-

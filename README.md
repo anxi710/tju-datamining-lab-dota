@@ -8,7 +8,6 @@
 .
 ├── README.md
 ├── data
-│   ├── extracted_data            # 从原始数据中初步提取的数据文件（运行代码后自动生成）
 │   ├── input_test.jsonl          # 小样本测试数据（100 个）
 │   ├── sample_submission.csv     # 示例提交文件
 │   ├── small_train_matches.json  # 小样本测试数据（30 个）
@@ -17,21 +16,17 @@
 │   ├── train_features.csv        # 主办方提供的训练特征集
 │   ├── train_matches.jsonl       # 主办方提供的原始训练数据集
 │   └── train_targets.csv         # 主办方提供的训练标签集
-├── docs
-├── linux_proc_cmd.txt
-├── note
-│   ├── RF_DT  # 随机森林和决策树笔记
-│   ├── lightgbm-allFeature-importance.ipynb
-│   ├── lightgbm-starter-code.ipynb
-│   ├── lightgbm.ipynb
-│   └── start.ipynb  # 主办方提供的入门笔记
-├── requirements.txt
+├── linux_proc_cmd.txt  # 使用到的部分 Linux 处理命令
+├── requirements.txt    # 需要的软件包
 └── src
-    ├── data               # 存放处理后的数据及结果数据
-    ├── datapreproc.ipynb  # 数据预处理
-    ├── test.ipynb         # 在该文件中测试数据预处理和训练过程中遇到的问题
-    ├── train.ipynb        # 训练模型
-    └── utils              # 存放预处理及训练过程中可能用到的功能函数
+    ├── data                  # 存放处理后的数据及结果数据
+    │   └── extracted_data    # 从原始数据中初步提取的数据文件（运行代码后自动生成）
+    ├── datapreproc_p1.ipynb  # 数据预处理 part 1
+    ├── datapreproc_p2.ipynb  # 数据预处理 part 2
+    ├── blank_filling_*.ipynb # 填充空值方法相关代码
+    ├── train_*.ipynb         # 分两类训练相关代码
+    ├── test.ipynb            # 在该文件中测试数据预处理和训练过程中遇到的问题
+    └── utils                 # 存放预处理及训练过程中可能用到的功能函数
 ```
 
 ---
@@ -42,22 +37,22 @@
 
 ## Workflow
 
-- [x] 10/11 - 10/19：理解原始数据中的特征含义，初步进行特征选择
+- [x] 理解原始数据中的特征含义，初步进行特征选择
 
 - [x] 选择需要的特征后从原始数据中提取所需数据
 
-- [ ] 清理提取到的数据，进行类别编码
+- [x] 清理提取到的数据，进行类别编码
 
-- [ ] 进行可能的数据标准化 / 归一化
+- [x] 进行可能的数据标准化 / 归一化
 
-- [ ] 对初步处理的数据进行特征工程
+- [x] 对初步处理的数据进行特征工程
 
-- [ ] 降维（可选）
+- [x] 降维（可选）
 
-- [ ] 训练模型
+- [x] 训练模型
 
-- [ ] 结果分析与调优
+- [x] 结果分析与调优
 
-- [ ] 模型评价
+- [x] 模型评价
 
-- [ ] 撰写报告
+- [x] 撰写报告
